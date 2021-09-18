@@ -58,6 +58,25 @@
 	padding: 20px 50px;
 }
 
+.privacy_p1 h3 {
+	font-size: 22px;
+}
+
+.privacy_p1 h4, .privacy_p2 h4{
+	font-size: 18px;
+	line-height: 1.3rem;
+	font-weight: normal;
+	margin: 10px 0;
+	border-bottom: #0C2E5A 3px dotted;
+	padding-bottom: 5px;
+}
+
+.privacy_p1 h4::before, .privacy_p2 h4::before{
+	content: '■';
+	color: #0C2E5A;
+	margin-right: 15px;
+}
+
 .privacy_p1 {
 	line-height: 1.3rem;
 }
