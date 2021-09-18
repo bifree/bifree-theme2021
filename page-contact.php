@@ -10,7 +10,6 @@
 </head>
 <body>
 	<div class="container">
-		a
 		<?php the_content(); ?>
 	</div>
 </body>
