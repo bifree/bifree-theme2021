@@ -5,15 +5,20 @@
 
 .special-field {
 	border: 2px solid #0C2E5A;
-	line-height: 1.2rem;
+	line-height: 2rem;
+	height: 2rem;
 }
 
 .special-textarea {
 	border: 2px solid #0C2E5A;
-	line-height: 1.2rem;
+	line-height: 2rem;
+	width: 700px;
+	height: 250px;
 }
 
 .wpcf7-submit {
+	margin-top: 30px;
+	margin-bottom: 50px;
 	display: block;
 	line-height: 1.2rem;
 	width: 100%;
@@ -25,6 +30,11 @@
   font-weight: bold;
   border-radius: 8px;
   transition: 0.3s;
+}
+
+.contact-submit {
+	display: flex;
+	justify-content: center;
 }
 
 .con_pri {
@@ -43,4 +53,21 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 20px 50px;
+}
+
+.haveto{
+	font-size:7px;
+	padding:5px;
+	background:#ffa600;
+	color:#fff;
+	border-radius:2px;
+	margin-right:5px;
+	position:relative;
+	bottom:1px;
+}
+
+.main-required {
+	width: 293px;
+	line-height: 2rem;
+	height: 2rem;
 }
