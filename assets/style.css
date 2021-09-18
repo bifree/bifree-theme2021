@@ -7,13 +7,16 @@
 	border: 2px solid #0C2E5A;
 	line-height: 2rem;
 	height: 2rem;
+	background-color: #effaff;
 }
 
 .special-textarea {
 	border: 2px solid #0C2E5A;
 	line-height: 2rem;
+	font-size: 1.2rem;
 	width: 700px;
 	height: 250px;
+	background-color: #effaff;
 }
 
 .wpcf7-submit {
@@ -38,8 +41,8 @@
 }
 
 .con_pri {
-	max-width: 700px;
-	margin: 0 auto;
+	max-width: 650px;
+	margin: 30px auto;
 }
 
 .con_pri .box_pri {
@@ -53,6 +56,14 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 20px 50px;
+}
+
+.privacy_p1 {
+	line-height: 1.3rem;
+}
+
+.privacy_p2 {
+	line-height: 1.3rem;
 }
 
 .haveto{
