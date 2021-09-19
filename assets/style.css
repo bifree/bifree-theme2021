@@ -223,3 +223,43 @@ table {
 	margin-top: 100px;
 	text-align: center;
 }
+
+.price {
+	margin-bottom: 100px;
+}
+
+.price__table {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.25;
+	border-collapse: collapse;
+	margin: 0 auto;
+	padding: 0;
+	width: 650px;
+	table-layout: fixed;
+}
+
+table thead tr {
+	background-color: #0C2E5A;
+	color: #fff;
+}
+
+table.price__table tr {
+	padding: .35em;
+	border-bottom: 2px solid #fff;
+}
+
+table.price__table th,
+table.price__table td {
+	padding: 1em 10px 1em 1em;
+	border-right: 2px solid #fff;
+}
+
+table.price__table tbody th {
+	background-color: #6886ac;
+	color: #fff;
+}
+
+table.price__table tbody td {
+	background-color: #c0d4ee;
+	text-align: center;
+}

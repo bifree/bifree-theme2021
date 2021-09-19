@@ -47,6 +47,42 @@
 			</div>
 		</div>
 
+		<div class="price">
+			<div class="price__list">
+				<table class="price__table">
+					<thead>
+						<tr>
+							<td class="td--none"></td>
+							<th>内容</th>
+							<th>価格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>LP（１ページ）の制作</th>
+							<td class="txt">基本料金</td>
+							<td>￥20,000</td>
+						</tr>
+						<tr>
+							<th>ヘッダー画像デザイン</th>
+							<td class="txt">基本料金</td>
+							<td class="price">￥10,000</td>
+						</tr>
+						<tr>
+							<th>Wordpressの構築</th>
+							<td class="txt">基本料金</td>
+							<td>￥50,000</td>
+						</tr>
+						<tr>
+							<th>ロゴ制作</th>
+							<td class="txt">基本料金</td>
+							<td>￥20,000</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>
