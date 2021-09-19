@@ -1,3 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
+:focus {
+	outline: none;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -105,7 +113,7 @@
 .haveto{
 	font-size:7px;
 	padding:5px;
-	background:#ffa600;
+	background:rgb(254, 183, 24);
 	color:#fff;
 	border-radius:2px;
 	margin-right:5px;
@@ -117,4 +125,72 @@
 	width: 293px;
 	line-height: 2rem;
 	height: 2rem;
+}
+
+.text--justify {
+	text-align: justify;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.about__cont h1 {
+	font-size: 24px;
+}
+
+.feature__text h2 {
+	font-size: 18px;
+}
+
+.feature__text p, .intro__text p {
+	line-height: 1.2;
+}
+
+.panel__feat {
+	padding: .75em 1.5em .75em 3em !important;
+	font-size: 16px;
+	position: relative;
+	background-color: #0C2E5A;
+	width: calc(100% - 4em) !important;
+	max-width: 642px !important;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #fff;
+	line-height: 1.5;
+	margin-bottom: -1.5em;
+	border-radius: 1.5em;
+	margin-top: 3em;
+	z-index: 2;
+}
+
+.panel__feat span {
+	position: absolute;
+	left: .25em;
+	top: 50%;
+	margin-top: -1.25em;
+	background-color: #fff;
+	color: #0C2E5A;
+	line-height: 2.5;
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 2.5em;
+}
+
+.feature__text--in {
+	padding-top: 3.5em;
+	padding-bottom: 2em;
+}
+
+.panel {
+	box-shadow: 0 0 10px rgb(4 4 41 / 20%);
+	position: relative;
+	margin-bottom: 3em;
+	background-color: #fff;
+	padding: 2.5em 1.5em 1em;
 }
