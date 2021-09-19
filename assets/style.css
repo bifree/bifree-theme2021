@@ -194,3 +194,32 @@
 	background-color: #fff;
 	padding: 2.5em 1.5em 1em;
 }
+
+.intro__table th, .intro__table td {
+	border: 1px solid #bbb;
+	padding: 10px 15px;
+	line-height: 2;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.page__header {
+	margin: 70px 0;
+}
+
+.upper--table {
+	font-size: 42px;
+	line-height: 1.25;
+	text-align: center;
+	margin: 0 0 10px 0;
+	font-family: "Hiragino Sans", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	font-weight: 100;
+}
+
+.contact--to {
+	margin-top: 100px;
+	text-align: center;
+}
