@@ -13,7 +13,7 @@
 	<div class="page__header">
 			<h2 class="upper--table">事業紹介</h2>
 		</div>
-		<h1>虹のように多彩な色でホームページに個性を</h1>
+		<h1 class="service--concept">虹のように多彩な色でホームページに個性を</h1>
 
 		<div class="intro">
 			<div class="intro__text text--justify">
@@ -60,7 +60,7 @@
 								<img src="https://bifree222.com/web-lab/img/sample4.jpg" alt="" width="370" height="270">
 							</figure>
 							<div class="work__list--innter">
-								<p>Bloom -Flower Arrangement School-</p>
+								<p class="site--title">Bloom -Flower Arrangement School-</p>
 								<p>Corporate site</p>
 							</div>
 						</a>
@@ -71,7 +71,7 @@
 								<img src="https://bifree222.com/web-lab/img/sample3.jpg" alt="" width="370" height="270">
 							</figure>
 							<div class="work__list--innter">
-								<p>石井総合内科クリニック</p>
+								<p class="site--title">石井総合内科クリニック</p>
 								<p>Hospital site</p>
 							</div>
 						</a>
@@ -82,7 +82,7 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/irodori-sample.png" alt="" width="370" height="270">
 							</figure>
 							<div class="work__list--innter">
-								<p>irOdori</p>
+								<p class="site--title">irOdori</p>
 								<p>Corporate site</p>
 							</div>
 						</a>

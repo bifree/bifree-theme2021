@@ -7,7 +7,7 @@
 }
 
 .container {
-	width: 80%;
+	width: 1080px;
 	margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@
 	padding: .75em 1.5em .75em 3em !important;
 	font-size: 16px;
 	position: relative;
-	background-color: #0C2E5A;
+	background: linear-gradient(135deg, #00aeff, #0C2E5A);
 	width: calc(100% - 4em) !important;
 	max-width: 642px !important;
 	margin-left: auto;
@@ -239,7 +239,7 @@ table {
 }
 
 table thead tr {
-	background-color: #0C2E5A;
+	background: linear-gradient(135deg, #00aeff, #0C2E5A);
 	color: #fff;
 }
 
@@ -256,6 +256,7 @@ table.price__table td {
 
 table.price__table tbody th {
 	background-color: #6886ac;
+	background: linear-gradient(135deg, #b6d0f4, #6886ac);
 	color: #fff;
 }
 
@@ -284,6 +285,8 @@ ul {
 	content: '';
 	display: block;
 	padding-top: 73.24%;
+	vertical-align: baseline;
+	border: #0C2E5A 1px solid;
 }
 
 .work__figure > img {
@@ -292,6 +295,7 @@ ul {
 	left: 0;
 	width: 100%;
 	height: auto;
+	vertical-align: baseline;
 }
 
 .work__list--innter {
@@ -302,4 +306,79 @@ ul {
 .work__list a {
 	text-decoration: none;
 	color: #333;
+}
+
+.site--title {
+	font-size: 16px;
+	display: inline-block;
+	color: #333;
+	font-family: 'Noto Sans JP Bold';
+	font-weight: bold;
+}
+
+.service--concept {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 896px){
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.price {
+		margin-bottom: 0;
+	}
+	.price__table{
+		border: 0;
+		width: 100%;
+	}
+	.price__table th {
+		display: block;
+		border-right: none;
+	}
+	.price__table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+	.price__table tr {
+		display: block;
+		margin-bottom: .625em;
+	}
+	.price__table td {
+		border-bottom: 1px solid #bbb;
+		display: block;
+		font-size: .8em;
+		text-align: right;
+		position: relative;
+		padding: .625em .625em .625em 4em;
+	}
+	.price__table td::before {
+		font-weight: bold;
+		position: absolute;
+		left: 10px;
+		color: #0C2E5A;
+	}
+	.price__table td:last-child {
+		border-bottom: 0;
+	}
+	table.price__table tbody th {
+		color: #fff;
+		background: linear-gradient(135deg, #00aeff, #0C2E5A);
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container {
+		width: 100%;
+	}
 }
