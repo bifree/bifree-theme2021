@@ -263,3 +263,43 @@ table.price__table tbody td {
 	background-color: #c0d4ee;
 	text-align: center;
 }
+
+ul {
+	display: flex;
+	margin: 39px -18px 16px;
+}
+
+.work__list {
+	list-style: none;
+	flex: 1;
+	margin: 0 20px;
+}
+
+.worklist__link {
+	display: block;
+}
+
+.work__figure {
+	position: relative;
+	content: '';
+	display: block;
+	padding-top: 73.24%;
+}
+
+.work__figure > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.work__list--innter {
+	letter-spacing: 1px;
+	padding: 25px 18px 18px;
+}
+
+.work__list a {
+	text-decoration: none;
+	color: #333;
+}
