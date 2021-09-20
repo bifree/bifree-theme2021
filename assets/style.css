@@ -322,6 +322,25 @@ ul {
 	margin-bottom: 40px;
 }
 
+.contact__btn {
+	width: 500px;
+	height: 100px;
+	background-color: #FEB718;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.contact__btn p{
+	font-size: 30px;
+	line-height: 100px;
+}
+
+.service--contact {
+	padding-bottom: 200px;
+}
+
 @media screen and (max-width: 896px){
 	.container {
 		width: 90%;

@@ -127,6 +127,12 @@
 			</div>
 		</div>
 
+		<div class="service--contact">
+			<div class="contact__btn">
+				<p>お問い合わせはこちら</p>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>
