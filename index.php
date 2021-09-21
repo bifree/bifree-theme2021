@@ -9,6 +9,7 @@
 </head>
 
 <?php get_header(); ?>
-<h1>こんにちわ</h1>
-<p>これはテストです</p>
+
+
 <?php get_footer(); ?>
+
