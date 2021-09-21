@@ -207,6 +207,10 @@
   line-height: 2;
 }
 
+.intro__table {
+  margin-bottom: 80px;
+}
+
 table {
   width: 80%;
   margin: 0 auto;

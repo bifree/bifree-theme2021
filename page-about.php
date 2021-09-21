@@ -32,9 +32,10 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="contact--to">
-			<h2>お問い合わせはこちらから</h2>
-			<div class="contact">Contact</div>
+		<div class="service--contact">
+			<div class="contact__btn">
+				<p>お問い合わせはこちら</p>
+			</div>
 		</div>
 	</div>
 </body>
