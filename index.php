@@ -8,9 +8,7 @@
     <title>Document</title>
 </head>
 
-<body>
-    <h1>こんにちわ</h1>
-    <p>これはテストです</p>
-</body>
-
-</html>
+<?php get_header(); ?>
+<h1>こんにちわ</h1>
+<p>これはテストです</p>
+<?php get_footer(); ?>
