@@ -333,8 +333,8 @@ ul {
 }
 
 .contact__btn {
-  width: 500px;
-  height: 100px;
+  width: 350px;
+  height: 80px;
   background-color: #feb718;
   text-align: center;
   color: #fff;
@@ -343,8 +343,8 @@ ul {
 }
 
 .contact__btn p {
-  font-size: 30px;
-  line-height: 100px;
+  font-size: 24px;
+  line-height: 80px;
 }
 
 .service--contact {
