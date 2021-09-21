@@ -8,10 +8,8 @@
     <title>Document</title>
 </head>
 
-<body>
-    <h1>こんにちわ</h1>
-    <p>これはテストです</p>
-    <p>ブランチのテストです</p>
-</body>
+<?php get_header(); ?>
 
-</html>
+
+<?php get_footer(); ?>
+
