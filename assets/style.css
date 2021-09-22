@@ -429,10 +429,6 @@ header .header_container div:first-child {
   margin: 0px 80px;
 }
 
-.header_container__nav {
-  
-}
-
 .header_container__nav ul {
   display: inline-flex;
   align-items: center;
