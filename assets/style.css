@@ -340,6 +340,7 @@ table.price__table tbody td {
   color: #fff;
   vertical-align: middle;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .contact__btn p {
@@ -512,7 +513,8 @@ header .header_container div:first-child {
 }
 
 #menu-item-21 a:hover,
-#menu-item-24 a:hover  {
+#menu-item-24 a:hover,
+.contact__btn:hover  {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
