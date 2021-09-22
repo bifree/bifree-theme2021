@@ -332,20 +332,40 @@ table.price__table tbody td {
   margin-bottom: 40px;
 }
 
-.contact__btn {
+.contact__btn{
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
   width: 350px;
-  height: 80px;
-  background-color: #feb718;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
-  margin: 0 auto;
+  position: relative;
+  display: block;
+  padding: 1rem 2rem;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin: 0 auto;
 }
 
-.contact__btn p {
-  font-size: 24px;
-  line-height: 80px;
+.contact__btn {
+  color: #fff;
+  background-color: #feb718;
+  border-bottom: 5px solid #ccc100;
+}
+
+.contact__btn:hover {
+  margin-top: 3px;
+  background: #feb718;
+  border-bottom: 2px solid #ccc100;
 }
 
 .service--contact {
@@ -513,8 +533,7 @@ header .header_container div:first-child {
 }
 
 #menu-item-21 a:hover,
-#menu-item-24 a:hover,
-.contact__btn:hover  {
+#menu-item-24 a:hover  {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
