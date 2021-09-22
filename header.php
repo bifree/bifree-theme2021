@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <?php wp_head(); ?>
 </head>
 
@@ -19,7 +20,6 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_b.svg"
                         alt="bifree_logo">
                 </a>
-
             </div>
             <div class="header_container__nav">
                 <?php 
