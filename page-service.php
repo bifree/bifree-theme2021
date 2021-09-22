@@ -43,7 +43,7 @@
 		<div class="achievement">
 			<div class="page__header">
 				<h2 class="upper--table">制作実績</h2>
-				<ul>
+				<ul class="work__list--ul">
 					<li class="work__list">
 						<a href="https://bifree222.com/web-lab/bloom/" class="worklist__link">
 							<figure class="work__figure">

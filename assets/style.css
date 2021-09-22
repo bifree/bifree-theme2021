@@ -276,7 +276,7 @@ table.price__table tbody td {
   text-align: center;
 }
 
-ul {
+.work__list--ul {
   display: flex;
   margin: 39px -18px 16px;
 }
@@ -432,6 +432,7 @@ header .header_container div:first-child {
 .header_container__nav ul {
   display: inline-flex;
   align-items: center;
+  height: 80px;
 }
 
 .header_container__nav li {
@@ -537,13 +538,15 @@ header .header_container div:first-child {
 }
 
 /* ヘッダーメニュー　CONTACT設定 */
-.header_container__nav #menu-item-21 a {
+.header_container__nav #menu-item-21 a, 
+.header_container__nav #menu-item-24 a {
   color: #fff;
   background-color: #feb718;
   padding: 10px 20px;
 }
 
-.header_container__nav #menu-item-21 a:hover {
+.header_container__nav #menu-item-21 a:hover,
+.header_container__nav #menu-item-24 a:hover  {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
