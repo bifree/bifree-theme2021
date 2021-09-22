@@ -450,6 +450,7 @@ header .header_container div:first-child {
 #menu-item-23 a::after {
   background: #f821ff;
 }
+/* ↑将希のローカル用ですm(__)m */
 
 #menu-item-25 a::after {
   background: #45b035;
