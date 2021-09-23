@@ -9,7 +9,7 @@
         </div>
         <div class="footer_container_sns">
             <div class="footer_container_sns__logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_a.svg" alt="bifree_logo">
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_a.svg" alt="bifree_logo"></a>
             </div>
             <div class="footer_container_sns__txt">
                 <p footer_container_sns__txt>SNSアカウントはこちら

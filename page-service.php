@@ -47,7 +47,7 @@
 					<li class="work__list">
 						<a href="https://bifree222.com/web-lab/bloom/" class="worklist__link">
 							<figure class="work__figure">
-								<img src="https://bifree222.com/web-lab/img/sample4.jpg" alt="" width="370" height="270">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/bloom-sample.png" alt="">
 							</figure>
 							<div class="work__list--innter">
 								<p class="site--title">Bloom -Flower Arrangement School-</p>
@@ -119,7 +119,10 @@
 
 		<div class="service--contact">
 			<div class="contact__btn">
-				<p>お問い合わせはこちら</p>
+				<p>お問い合わせはこちら
+				<img class="contact__btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png">
+				<img class="contact__btn__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact_arrow.png">
+				</p>
 			</div>
 		</div>
 

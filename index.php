@@ -95,7 +95,7 @@
             <a class="readmore__btn" href="<?php echo home_url('/service/');?>">READ MORE</a>
         </div>
     </section>
-      
+
     <section class="article">
         <div class=sec-title>
             <h1 class="sec-title__en">ARTICLE</h1>

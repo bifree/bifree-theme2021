@@ -153,7 +153,7 @@
 
 .feature__text p,
 .intro__text p {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .panel__feat {
@@ -197,7 +197,7 @@
   position: relative;
   margin-bottom: 3em;
   background-color: #fff;
-  padding: 2.5em 1.5em 1em;
+  padding: 2.5em 7em 1em;
 }
 
 .intro__table th,
@@ -304,7 +304,7 @@ table.price__table tbody td {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 240px;
   vertical-align: baseline;
 }
 
@@ -369,6 +369,8 @@ table.price__table tbody td {
 
 .service--contact {
   padding-bottom: 200px;
+  justify-content: center;
+  display: flex;
 }
 
 /* ヘッダー */
@@ -867,6 +869,7 @@ top:40%;
   background:#FEB718;
   position:relative;
   display:inline-block;
+  cursor: pointer;
 }
 
 .contact__btn__img{
