@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<header>
+<?php get_header(); ?>
 
-	</header>
-	<main></main>
-	<footer></footer>
-</body>
-</html>
+<div class="page--top">
 
+</div>
+
+<div class="page--content container">
+	<?php the_content(); ?>
+</div>
+
+<div class="page--bottom">
+
+</div>
+
+<?php get_footer(); ?>

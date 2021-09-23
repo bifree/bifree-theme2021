@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
-<?php the_content(); ?>
+<div class="page--top">
+
+</div>
+
+<div class="page--content container">
+	<?php the_content(); ?>
+</div>
+
+<div class="page--bottom">
+
+</div>
 
 <?php get_footer(); ?>
