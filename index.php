@@ -1,9 +1,7 @@
 
 <?php get_header(); ?>
-<head>
-<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-<head>
-    
+
+
 <main>
     <div class="main-visual">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mainvisual1.png" alt="トップ画像">
@@ -26,7 +24,7 @@
         </div>
 
         <div class="readmore">
-            <a class="readmore__btn" href="">READ MORE</a>
+            <a class="readmore__btn" href="<?php echo home_url('/about/');?>">READ MORE</a>
         </div>
     </section>
 
@@ -94,7 +92,7 @@
         </div>
 
         <div class="readmore">
-            <a class="readmore__btn">READ MORE</a>
+            <a class="readmore__btn" href="<?php echo home_url('/service/');?>">READ MORE</a>
         </div>
     </section>
       
@@ -159,7 +157,7 @@
         </div>
 
         <div class="readmore">
-            <a class="readmore__btn">READ MORE</a>
+            <a class="readmore__btn" href="<?php echo home_url('/article/');?>">READ MORE</a>
         </div>
     </section>
 
@@ -173,7 +171,7 @@
             <p class="contact__text">仕事依頼、ご質問・ご相談など、お気軽にお問合せください。</p>
           
             <div class="contact-page">
-                <a class="contact__btn" href="contact.html">お問い合わせはこちら
+                <a class="contact__btn" href="<?php echo home_url('/contact/');?>">お問い合わせはこちら
                 <img class="contact__btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png">
                 <img class="contact__btn__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact_arrow.png"> 
                 </a>

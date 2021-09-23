@@ -441,10 +441,11 @@ header nav #menu-item-21 {
 /* トップ */
 main{
   background:#F5F5F5;
+  border:solid 1px #F5F5F5;
   color:#333;
   font-size:15px;
-  line-height:1.7;
-}
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;
+  }
 
 a{
   text-decoration:none;
@@ -499,6 +500,7 @@ top:40%;
 .about__text{
   width:517px;
   margin-left:606px;
+  line-height:1.7em;
 }
 
 .readmore{
@@ -507,12 +509,14 @@ top:40%;
 }
 
 .readmore__btn{
+  font-size:18px;
+  letter-spacing:0.1em;
   color:#fff;
   font-weight:bold;
-  padding:13px 22px;
+  padding:20px;
   background:#0C2E5A;
   border:solid 1px #0C2E5A;;
-  border-radius:20px;
+  border-radius:30px;
 }
 
 .readmore__btn:hover{
@@ -557,6 +561,10 @@ top:40%;
 .service__ja{
   font-size:30px;
   padding-top:10px;
+}
+
+.service__body{
+  line-height:1.7em;
 }
 
 .service__img{
@@ -682,9 +690,13 @@ top:40%;
   text-align:center;
 }
 
-.contact__btn{
+.contact-page{
   margin:100px auto 150px;
+}
+
+.contact__btn{
   padding:28px 65px;
+  font-size:24px;
   color:#fff;
   font-weight:bold;
   background:#FEB718;
