@@ -361,8 +361,7 @@ table.price__table tbody td {
   border-bottom: 5px solid #ccc100;
 }
 
-
-.contact__btn:hover {
+.contact__btn1:hover {
   margin-top: 3px;
   background: #feb718;
   border-bottom: 2px solid #ccc100;
