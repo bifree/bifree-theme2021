@@ -329,20 +329,7 @@ ul {
   margin-bottom: 40px;
 }
 
-.contact__btn {
-  width: 500px;
-  height: 100px;
-  background-color: #feb718;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
-  margin: 0 auto;
-}
 
-.contact__btn p {
-  font-size: 30px;
-  line-height: 100px;
-}
 
 .service--contact {
   padding-bottom: 200px;
@@ -449,4 +436,277 @@ header nav #menu-item-21 {
   background-color: #feb718;
   color: #fff;
   padding: 10px 20px;
+}
+
+/* トップ */
+main{
+  background:#F5F5F5;
+  color:#333;
+  font-size:15px;
+  line-height:1.7;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+  vertical-align:bottom;
+}
+
+
+.main-visual img{
+  width:100%;
+  height:calc(100vh - 80px);
+  object-fit:cover;
+  position:relative;
+}
+
+.catch-copy{
+position:absolute;
+top:40%;
+}
+
+.about,.article{
+  background:rgba(6,141,218,0.05);
+  border:solid 1px rgba(6,141,218,0.05);
+}
+
+.sec-title{
+  text-align:center;
+  padding:150px 0 100px;
+}
+
+.sec-title__en{
+  font-size:45px;
+  font-weight:normal;
+  color:#0C2E5A;
+  letter-spacing:0.2em;
+}
+
+.sec-title__ja{
+  color:#6E6E6E;
+  letter-spacing:0.2em;
+  padding:20px 0 10px;
+  display:inline-block;
+}
+
+.about .sec-title__ja{
+  border-bottom:solid 5px #F85245;
+}
+
+.about__text{
+  width:517px;
+  margin-left:606px;
+}
+
+.readmore{
+  text-align:center;
+  margin:100px 0 150px;
+}
+
+.readmore__btn{
+  color:#fff;
+  font-weight:bold;
+  padding:13px 22px;
+  background:#0C2E5A;
+  border:solid 1px #0C2E5A;;
+  border-radius:20px;
+}
+
+.readmore__btn:hover{
+  color:#0C2E5A;
+  background:#fff;
+}
+
+
+.services{
+  margin:0 50px 271px;
+  position:relative;
+}
+
+.service .sec-title__ja{
+  border-bottom:solid 5px #FFE621;
+}
+
+.service__text{
+  color:#fff;
+  padding:40px;
+  background:rgba(12,46,90,0.9);
+  width:500px;
+  position:absolute;
+  z-index:2;
+}
+
+.service__top{
+  display:flex;
+  margin-bottom:30px;
+}
+
+.service__number{
+  font-size:30px;
+  padding:16px 10px 10px 0;
+  border-right:solid 2px #fff;
+}
+
+.service__title{
+  padding-left:10px;
+}
+
+.service__ja{
+  font-size:30px;
+  padding-top:10px;
+}
+
+.service__img{
+  width:580px;
+  height:400px;
+  position:absolute;
+  z-index:1;
+}
+
+.service__img__place{
+  width:580px;
+  height:400px;
+  opacity:0;
+}
+
+.service__back{
+  width:800px;
+  height:450px;
+  position:absolute;
+  z-index:0;
+}
+
+.service__web .service__back{
+  background:rgba(248,82,69,0.05);
+}
+
+.service__media .service__back{
+  background:rgba(69,176,53,0.05);
+}
+.service__lgbt .service__back{
+  background:rgba(255,230,33,0.05);
+}
+
+.service__web .service__text,.service__lgbt .service__text{
+  top:180px;
+  left:486px;
+}
+.service__web .service__back,.service__lgbt .service__back{
+  top:91px;
+  left:230px;
+}
+
+.service__media .service__img{
+  left:394px;
+}
+
+.service__media .service__text{
+  top:180px;
+}
+.service__media .service__back{
+  top:91px;
+  left:-59px;
+}
+
+
+.article .sec-title__ja{
+  border-bottom:solid 5px #45B035;
+}
+
+.article .container{
+  display:flex;
+  height:120px;
+  align-items:center;
+}
+
+.article__left-arrow,.article__left-arrow{
+  width:30px;
+  height:30px;
+}
+
+.article__left-arrow{
+  margin-right:15px;
+}
+
+.article__right-arrow{
+  margin-left:15px;
+}
+
+.articles{
+  display:flex;
+  justify-content:space-between;
+}
+
+.article__item{
+  display:flex;
+  width:325px;
+}
+
+.article__thumbnai{
+  margin-right:15px;
+}
+
+.article__thumbnail__img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+}
+
+.article__title{
+  font-weight:bold;
+  margin-bottom:12px;
+}
+
+.article__time{
+  display:flex;
+}
+
+.article__time__img{
+  width:12px;
+  height:12px;
+  margin:3px 5px 0 0;
+}
+
+.article__time__day{
+  font-size:12px;
+}
+
+.contact .sec-title__ja{
+  border-bottom:solid 5px #FEB718;
+}
+
+.contact .container{
+  text-align:center;
+}
+
+.contact__btn{
+  margin:100px auto 150px;
+  padding:28px 65px;
+  color:#fff;
+  font-weight:bold;
+  background:#FEB718;
+  position:relative;
+  display:inline-block;
+}
+
+.contact__btn__img{
+  width:40px;
+  height:40px;
+  position:absolute;
+  top:20px;
+  left:20px;
+}
+
+.contact__btn__arrow{
+  width:40px;
+  position:absolute;
+  top:40px;
+  right:20px;
+}
+
+.contact__btn:hover{
+  background:rgba(254,183,24,0.6);
 }
