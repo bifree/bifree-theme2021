@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/reset.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
-</head>
+<?php get_header(); ?>
 <body>
 	<div class="container">
 		<div class="page__header">
@@ -41,10 +32,11 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="contact--to">
-			<h2>お問い合わせはこちらから</h2>
-			<div class="contact">Contact</div>
+		<div class="service--contact">
+			<div class="contact__btn">
+				<p>お問い合わせはこちら</p>
+			</div>
 		</div>
 	</div>
 </body>
-</html>
+<?php get_footer(); ?>

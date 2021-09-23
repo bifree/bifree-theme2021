@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/reset.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
-</head>
-<body>
+<?php get_header(); ?>
 	<div class="container about__cont">
 	<div class="page__header">
 			<h2 class="upper--table">事業紹介</h2>
@@ -53,7 +43,7 @@
 		<div class="achievement">
 			<div class="page__header">
 				<h2 class="upper--table">制作実績</h2>
-				<ul>
+				<ul class="work__list--ul">
 					<li class="work__list">
 						<a href="https://bifree222.com/web-lab/bloom/" class="worklist__link">
 							<figure class="work__figure">
@@ -135,4 +125,4 @@
 
 	</div>
 </body>
-</html>
+<?php get_footer(); ?>

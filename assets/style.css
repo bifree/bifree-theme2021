@@ -207,6 +207,10 @@
   line-height: 2;
 }
 
+.intro__table {
+  margin-bottom: 80px;
+}
+
 table {
   width: 80%;
   margin: 0 auto;
@@ -272,7 +276,7 @@ table.price__table tbody td {
   text-align: center;
 }
 
-ul {
+.work__list--ul {
   display: flex;
   margin: 39px -18px 16px;
 }
@@ -292,7 +296,6 @@ ul {
   content: "";
   display: block;
   padding-top: 73.24%;
-  vertical-align: baseline;
   border: #0c2e5a 1px solid;
 }
 
@@ -329,71 +332,45 @@ ul {
   margin-bottom: 40px;
 }
 
+.contact__btn1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 350px;
+  position: relative;
+  display: block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
 
+.contact__btn1 {
+  color: #fff;
+  background-color: #feb718;
+  border-bottom: 5px solid #ccc100;
+}
+
+
+.contact__btn:hover {
+  margin-top: 3px;
+  background: #feb718;
+  border-bottom: 2px solid #ccc100;
+}
 
 .service--contact {
   padding-bottom: 200px;
-}
-
-@media screen and (max-width: 896px) {
-  .container {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .price {
-    margin-bottom: 0;
-  }
-  .price__table {
-    border: 0;
-    width: 100%;
-  }
-  .price__table th {
-    display: block;
-    border-right: none;
-  }
-  .price__table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  .price__table tr {
-    display: block;
-    margin-bottom: 0.625em;
-  }
-  .price__table td {
-    border-bottom: 1px solid #bbb;
-    display: block;
-    font-size: 0.8em;
-    text-align: right;
-    position: relative;
-    padding: 0.625em 0.625em 0.625em 4em;
-  }
-  .price__table td::before {
-    font-weight: bold;
-    position: absolute;
-    left: 10px;
-    color: #0c2e5a;
-  }
-  .price__table td:last-child {
-    border-bottom: 0;
-  }
-  table.price__table tbody th {
-    color: #fff;
-    background: linear-gradient(135deg, #00aeff, #0c2e5a);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
 }
 
 /* ヘッダー */
@@ -414,28 +391,218 @@ header .header_container div:first-child {
 }
 
 .header_container__nav ul {
-  font-size: 15px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  height: 80px;
+  font-size: 15px;
 }
 
 .header_container__nav li {
-  margin: 0 60px 0 0;
+  margin: 0 0 0 60px;
+}
+
+.header_container__nav li:last-child {
+  margin: 0 80px 0 60px;
 }
 
 .header_container__nav a {
   text-decoration: none;
   color: #333;
+  font-weight: bold;
 }
 
-.header_container__nav li:last-child {
-  margin-right: 80px;
+/* ヘッダーメニュー　ホバー設定 */
+
+.header_container__nav #menu-item-19 a:hover,
+.header_container__nav #menu-item-20 a:hover,
+.header_container__nav #menu-item-22 a:hover,
+.header_container__nav #menu-item-23 a:hover,
+.header_container__nav #menu-item-25 a:hover {
+  position: relative;
 }
 
-header nav #menu-item-21 {
-  background-color: #feb718;
+#menu-item-19 a::after,
+#menu-item-20 a::after,
+#menu-item-23 a::after,
+#menu-item-22 a::after,
+#menu-item-25 a::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+
+#menu-item-19 a::after {
+  background: #068dda;
+}
+
+#menu-item-20 a::after {
+  background: #f85245;
+}
+
+#menu-item-22 a::after {
+  background: #ffe621;
+}
+
+#menu-item-23 a::after {
+  background: #f821ff;
+}
+/* ↑将希のローカル用ですm(__)m */
+
+#menu-item-25 a::after {
+  background: #45b035;
+}
+
+#menu-item-19 a:hover::after,
+#menu-item-20 a:hover::after,
+#menu-item-23 a:hover::after,
+#menu-item-22 a:hover::after,
+#menu-item-25 a:hover::after {
+  transform: scale(1, 1);
+}
+
+/* ヘッダーメニュー　CONTACT設定 */
+#menu-item-21 a,
+#menu-item-24 a {
   color: #fff;
+  background-color: #feb718;
   padding: 10px 20px;
+}
+
+#menu-item-21 a:hover,
+#menu-item-24 a:hover {
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+
+#menu-item-21 .material-icons-outlined {
+  vertical-align: middle;
+}
+
+/* フッター */
+.footer_container {
+  background-color: #0c2e5a;
+  width: 100vw;
+}
+
+.footer_container_nav {
+  text-align: center;
+  padding: 86px 0 0 0;
+}
+
+.footer_container_nav ul {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer_container_nav li {
+  margin: 0 50px 0 0;
+  list-style: none;
+}
+
+.footer_container_nav li:last-child {
+  margin: 0;
+}
+
+.footer_container_nav li:not(:last-child) {
+  display: flex;
+  align-items: center;
+}
+
+.footer_container_nav li:not(:last-child)::before {
+  border-top: 1px solid;
+  content: "";
+  width: 12px; /* 線の長さ */
+  color: #fff;
+  margin-right: 6px;
+}
+
+.footer_container_nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* フッターメニュー　ホバー設定 */
+#menu-item-29 a:hover,
+#menu-item-30 a:hover,
+#menu-item-34 a:hover,
+#menu-item-31 a:hover,
+#menu-item-32 a:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+/* フッターメニュー　プライバシーポリシー */
+#menu-item-33 a {
+  padding: 6px;
+  border: 1px solid #fff;
+}
+
+#menu-item-33 a:hover {
+  background-color: #fff;
+  color: #0c2e5a;
+}
+
+/* SNS部分 */
+.footer_container_sns {
+  font-size: 13px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 56px 0;
+}
+
+.footer_container_sns__logo img {
+  width: 80px;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.footer_container_sns__txt {
+  display: inline-flex;
+}
+
+.footer_container_sns__txt .arrow {
+  width: 40px;
+  height: 8px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: skew(45deg);
+}
+
+.footer_container_sns__follow {
+  text-align: center;
+  margin-left: 30px;
+  display: block;
+}
+
+.footer_container_sns__follow__icon a {
+  text-decoration: none;
+}
+
+.footer_container_sns__follow__icon img {
+  width: auto;
+  height: 35px;
+  display: inline-block;
+  margin: 20px 15px 0 15px;
+}
+
+.footer_container_copy {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 37px;
 }
 
 /* トップ */
