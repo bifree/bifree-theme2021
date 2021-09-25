@@ -58,3 +58,42 @@
     width: 100%;
   }
 }
+
+/* ヘッダーナビ　レスポンシブ用 */
+@media(max-width: 800px) {
+  .header_container__navbtn_menu a {
+    width: 100%;
+  }
+  
+  .header_container {
+    position: relative;
+  }
+
+  .header_container__navbtn_menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0c2e5a;
+  }
+
+  .header_container__navbtn_menu img{
+    margin-top: 8px;
+  }
+
+
+  .header_container__navbtn_menu p {
+    display: block;
+    font-size: 8px;
+    transform: scale(0.8);
+    margin-top: 7px;
+    color: #fff;
+  }  
+
+  .header_container__navbtn_menu a:hover {
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+  }

@@ -22,6 +22,13 @@
                         alt="bifree_logo">
                 </a>
             </div>
+            <!-- レスポンシブ用メニューボタン -->
+            <a class="header_container__navbtn_menu" href="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nav_menu.svg" alt="navbtn_menu">
+                <p>
+                    MENU
+                </p>
+            </a>
             <div class="header_container__nav">
                 <?php 
                     wp_nav_menu( array( 
