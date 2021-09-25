@@ -459,19 +459,22 @@ header .header_container div:first-child {
 }
 
 /* ヘッダーメニュー　CONTACT設定 */
-#menu-item-19 a {
+#menu-item-19 a,
+#menu-item-423 a {
   color: #fff;
   background-color: #feb718;
   padding: 10px 20px;
 }
 
-#menu-item-19 a:hover {
+#menu-item-19 a:hover,
+#menu-item-423 a:hover {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
 }
 
-#menu-item-19 .material-icons-outlined {
+#menu-item-19 .material-icons-outlined,
+#menu-item-423 .material-icons-outlined {
   vertical-align: middle;
 }
 

@@ -33,9 +33,7 @@
 			</table>
 		</div>
 		<div class="service--contact">
-			<div class="contact__btn">
-				<p>お問い合わせはこちら</p>
-			</div>
+			<?php get_template_part('template/contact__btn');?>
 		</div>
 	</div>
 </body>

@@ -169,15 +169,12 @@
 
         <div class="container">
             <p class="contact__text">仕事依頼、ご質問・ご相談など、お気軽にお問合せください。</p>
-          
+        
             <div class="contact-page">
-                <a class="contact__btn" href="<?php echo home_url('/contact/');?>">お問い合わせはこちら
-                <img class="contact__btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png">
-                <img class="contact__btn__arrow" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact_arrow.png"> 
-                </a>
+                <?php get_template_part('template/contact__btn');?>
             </div>
         </div>
-      </section>
+    </section>
     </main>
 
 
