@@ -607,8 +607,8 @@ header .header_container div:first-child {
 
 /* トップ */
 main{
-  background:#F5F5F5;
-  border:solid 1px #F5F5F5;
+  background:#FFF;
+  border:solid 1px #FFF;
   color:#333;
   font-size:15px;
   font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;
