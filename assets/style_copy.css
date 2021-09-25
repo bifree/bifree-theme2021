@@ -413,19 +413,17 @@ header .header_container div:first-child {
 
 /* ヘッダーメニュー　ホバー設定 */
 
-.header_container__nav #menu-item-19 a:hover,
-.header_container__nav #menu-item-20 a:hover,
-.header_container__nav #menu-item-22 a:hover,
-.header_container__nav #menu-item-23 a:hover,
-.header_container__nav #menu-item-25 a:hover {
+.header_container__nav #menu-item-49 a:hover,
+.header_container__nav #menu-item-425 a:hover,
+.header_container__nav #menu-item-191 a:hover,
+.header_container__nav #menu-item-18 a:hover {
   position: relative;
 }
 
-#menu-item-19 a::after,
-#menu-item-20 a::after,
-#menu-item-23 a::after,
-#menu-item-22 a::after,
-#menu-item-25 a::after {
+#menu-item-425 a::after,
+#menu-item-49 a::after,
+#menu-item-191 a::after,
+#menu-item-18 a::after {
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -437,51 +435,43 @@ header .header_container div:first-child {
   transition: transform 0.3s;
 }
 
-#menu-item-19 a::after {
+#menu-item-425 a::after {
   background: #068dda;
 }
 
-#menu-item-20 a::after {
+#menu-item-49 a::after {
   background: #f85245;
 }
 
-#menu-item-22 a::after {
+#menu-item-191 a::after {
   background: #ffe621;
 }
 
-#menu-item-23 a::after {
-  background: #f821ff;
-}
-/* ↑将希のローカル用ですm(__)m */
-
-#menu-item-25 a::after {
+#menu-item-18 a::after {
   background: #45b035;
 }
 
-#menu-item-19 a:hover::after,
-#menu-item-20 a:hover::after,
-#menu-item-23 a:hover::after,
-#menu-item-22 a:hover::after,
-#menu-item-25 a:hover::after {
+#menu-item-425 a:hover::after,
+#menu-item-49 a:hover::after,
+#menu-item-191 a:hover::after,
+#menu-item-18 a:hover::after {
   transform: scale(1, 1);
 }
 
 /* ヘッダーメニュー　CONTACT設定 */
-#menu-item-21 a,
-#menu-item-24 a {
+#menu-item-19 a {
   color: #fff;
   background-color: #feb718;
   padding: 10px 20px;
 }
 
-#menu-item-21 a:hover,
-#menu-item-24 a:hover {
+#menu-item-19 a:hover {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
 }
 
-#menu-item-21 .material-icons-outlined {
+#menu-item-19 .material-icons-outlined {
   vertical-align: middle;
 }
 
