@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6296470801426384"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,14 +27,12 @@
                 </a>
             </div>
             <!-- レスポンシブ用メニューボタン -->
-            <div id="hamburger">
-                <a class="header_container__navbtn_menu" href="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nav_menu.svg" alt="navbtn_menu">
-                    <p>
-                        MENU
-                    </p>
-                </a>
-            </div>
+            <button type="button" class="navbtn_menu">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nav_menu.svg" alt="navbtn_menu">
+                <p>
+                    MENU
+                </p>
+            </button>
             <!-- ヘッダーナビゲーション -->
             <div class="header_container__nav">
                 <?php 
