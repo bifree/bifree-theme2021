@@ -1008,6 +1008,7 @@ section.typeA input:checked + .tabLabel + .content {
   display: flex;
 }
 
+.greet__pic,
 .member__voice--pic {
   height: 150px;
   width: 150px;
