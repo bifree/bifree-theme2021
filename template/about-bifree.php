@@ -9,7 +9,26 @@
 		私たちBifreeは、そんな彼らの自由のきっかけになりたい。彼らが私たちの活動を見て、勇気を得たり、元気になったり、笑顔になったり（ラジバンダリ）。その笑顔や勇気は、未来へ繋がるアクションや人の輪を呼び集め、きっと彼ら自身の誇りとなるでしょう。誇りの先に自由が、あることを信じて。これからも私たちは、あなたに寄り添います。</p>
 		<h1 class="about__h1">メンバー紹介</h1>
 		<p class="service__body text--justify">Bifreeで日々活動しているメンバーの声を紹介します！</p>
-		<div class="member__voice"></div>
-		<div class="member__voice"></div>
+		<div class="member__voice">
+			<div class="member__voice--pic">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/member_image1.png" alt="">
+			</div>
+		<div class="member__voice--comment">
+		<p>今まで印刷関連の会社で7年、紙媒体メインのDTPデザインをしてきました。
+「これからはwebの知識も必要だな！」と思い、勉強を始めたものの一人ではなかなか進まず…。そんなとき代表のまさきさんに声をかけていただきました！
+チラシ、カード、ロゴ、youtubeサムネイル、webサイトデザインなどをメインに制作しています。最近は皆さんに教えていただきながら、一部コーディングもさせてもらっています。
+日々新たな知識と「もっとできるようになりたい」と思える刺激をいただいております！成長のきっかけをくれたbifreeとまさきさんに感謝です。</p>
+		</div>
+</div>
+		<div class="member__voice">
+		<div class="member__voice--pic">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/member_image2.png" alt="">
+		</div>
+		<div class="member__voice--comment">
+		<p>独学で勉強し、何の実績もなかった私がBifreeの一員となることはみなさんの足をひっぱってしまうのではないかと最初は不安でした。しかし、実際に参加してみるとBifreeのメンバーが互いに教え合い、助け合っている姿が見え、また、初心者の私にも優しくサポートしくれるとても暖かい団体でした。
+Bifreeでは、みんなが意見を出し合い、それぞれの考えを尊重し、様々なことにも挑戦させてくださるので、勉強になることや吸収出来ることがたくさんあります。日々成長出来るので自分への自信にも繋がり、また、LGBT当事者、理解者で構成されているのでセクシャルを隠すことなくありのままでいられます。『自分らしくいられる』そんな場所だと感じています。
+そんなBifreeの活動に貢献したい、事業を通して自身もたくさんの人の"らしさ"を応援したい。そんな気持ちが日々のやる気に繋がっています。</p>
+		</div>
+</div>
 	</div>
 </div>
