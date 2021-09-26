@@ -1011,7 +1011,27 @@ section.typeA input:checked + .tabLabel + .content {
 
 .member__voice {
   background-color: #bfd8f9;
-  width: 90%;
-  height: 100px;
+  padding: 1.5em;
+  width: 800px;
+  height: auto;
   margin: 0 auto 20px;
+
+  display: flex;
 }
+
+.greet__pic,
+.member__voice--pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.member_image1 {
+  width: 100%;
+  object-fit: cover;
+}
+
+.member__voice--comment {
+  width: 650px
+}
+
