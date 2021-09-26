@@ -984,6 +984,7 @@ section.typeA .content {	/* 本文 */
 	overflow: hidden;
 	opacity: 0;
 }
+
 /*アクティブ設定*/
 section.typeA input:checked + .tabLabel {
 	color: #fff;
