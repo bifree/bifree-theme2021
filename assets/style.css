@@ -732,6 +732,14 @@ img {
 .services {
   margin: 0 50px 271px;
   position: relative;
+  opacity: 0;
+  transform: translate(0, 150px);
+  transition: all 2000ms; 
+  }
+
+.services-scroll {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .service .sec-title__ja {
@@ -785,21 +793,21 @@ img {
 }
 
 .service__back {
-  max-width: 800px;
+  width: 800px;
   height: 450px;
   position: absolute;
   z-index: 0;
 }
 
 .service__web .service__back {
-  background: rgba(248, 82, 69, 0.05);
+  background: rgba(248, 82, 69, 0.1);
 }
 
 .service__media .service__back {
-  background: rgba(69, 176, 53, 0.05);
+  background: rgba(69, 176, 53, 0.1);
 }
 .service__lgbt .service__back {
-  background: rgba(255, 230, 33, 0.05);
+  background: rgba(255, 230, 33, 0.1);
 }
 
 .service__web .service__text,
