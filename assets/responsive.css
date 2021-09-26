@@ -12,7 +12,7 @@
     border: 0;
     width: 100%;
   }
-  
+
   .price__table th {
     display: block;
     border-right: none;
@@ -99,3 +99,4 @@
     -moz-opacity: 0.6;
     opacity: 0.6;
   }
+}
