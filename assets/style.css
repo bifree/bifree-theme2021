@@ -417,11 +417,11 @@ header .header_container div:first-child {
 
 /* ヘッダーメニュー　ホバー設定 */
 
-.header_container__nav #menu-item-19 a:hover,
-.header_container__nav #menu-item-20 a:hover,
-.header_container__nav #menu-item-22 a:hover,
-.header_container__nav #menu-item-23 a:hover,
-.header_container__nav #menu-item-25 a:hover {
+.header_container__nav #menu-item-19 a,
+.header_container__nav #menu-item-20 a,
+.header_container__nav #menu-item-22 a,
+.header_container__nav #menu-item-23 a,
+.header_container__nav #menu-item-25 a {
   position: relative;
 }
 
