@@ -1,12 +1,10 @@
 <?php get_header(); ?>
 <main>
     <div class="main-visual">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mainvisual1.png" alt="トップ画像">
-        <div class="catch-copy">
-            <h2 class="catch-copy__ja">‘‘あなたらしさ’’<span class="catch-copy__wo">を</span><br>
-            応援したい</h2>
-            <p class="catch-copy__en">We want to support your personality.</p>
-        </div>
+        <img class="main-visual__img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual1.png" alt="トップ画像">
+        <img class="main-visual__img2" src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual2.png" alt="トップ画像">
+        <img class="catch-copy__img fixed" src="<?php echo get_template_directory_uri(); ?>/assets/img/catch-copy.png">
+        
     </div>
 
 
@@ -107,6 +105,7 @@
     </section>
     </main>
 
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/main.js"></script>
 
 <?php get_footer(); ?>
 
