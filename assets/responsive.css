@@ -12,10 +12,12 @@
     border: 0;
     width: 100%;
   }
+  
   .price__table th {
     display: block;
     border-right: none;
   }
+
   .price__table thead {
     border: none;
     clip: rect(0 0 0 0);
