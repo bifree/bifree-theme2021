@@ -224,6 +224,31 @@
   .header_container__nav.active {
     transform: translateX(0%);
   }
+
+  .special-textarea {
+    width: 100%;
+  }
+
+  .contact-submit span.ajax-loader {
+    display: none;
+  }
+
+  .greet__top {
+    display: block;
+    padding: 0 2em 2em;
+  }
+
+  .greet__pic {
+    margin-bottom: 1em;
+  }
+
+  .member__voice {
+    display: block;
+  }
+
+  .member__voice--comment {
+    width: 100%;
+  }
 }
 /* 
 .header_container__nav {

@@ -890,15 +890,6 @@ img {
   margin-left: 15px;
 }
 
-.articles {
-  display: flex;
-  justify-content: space-between;
-}
-/* 
-.article__thumbnail {
-  margin-right: 15px;
-} */
-
 .article__thumbnail img{
   width: 120px !important;
   height: 120px !important;
