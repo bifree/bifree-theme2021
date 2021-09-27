@@ -9,7 +9,8 @@
         </div>
         <div class="footer_container_sns">
             <div class="footer_container_sns__logo">
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_a.svg" alt="bifree_logo"></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_a.svg"
+                        alt="bifree_logo"></a>
             </div>
             <div class="footer_container_sns__txt">
                 <p footer_container_sns__txt>SNSアカウントはこちら
@@ -19,11 +20,11 @@
             <div class="footer_container_sns__follow">
                 <p>＼Follow Bifree!!／</p>
                 <div class="footer_container_sns__follow__icon">
-                    <a href="">
+                    <a href="https://twitter.com/_bifree_">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/twitter_social icons_roundedsquare_blue.png"
                             alt="twitter_icon">
                     </a>
-                    <a href="">
+                    <a href="https://youtube.com/channel/UCOSRAzwBWp-PacFcNTI0oKw">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/youtube_social_squircle_red.png"
                             alt="youtube_icon">
                     </a>
