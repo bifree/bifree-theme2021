@@ -62,41 +62,88 @@
 }
 
 /* ヘッダーナビ　レスポンシブ用 */
-@media (max-width: 800px) {
-  .header_container {
+@media screen and (max-width: 800px) {
+  header .header_container {
     position: relative;
+    height: 50px;
   }
 
-  .navbtn_menu {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    padding: 0;
-    appearance: none;
+  .header_container__logo img {
+    width: 110px;
+    margin: 0px 30px;
   }
 
-  .navbtn_menu {
-    display: block;
-    position: absolute;
-    top: 0;
+  .navbtn {
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+    display: flex;
     right: 0;
-    text-align: center;
     width: 50px;
     height: 50px;
     background-color: #0c2e5a;
+    border: none;
   }
 
-  .navbtn_menu img {
-    margin-top: 8px;
-  }
-
-  .navbtn_menu p {
+  .navbtn i {
     display: block;
-    font-size: 8px;
-    transform: scale(0.8);
-    margin-top: 7px;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+
+  .navbtn i:nth-child(1) {
+    top: 10px;
+  }
+
+  .navbtn i:nth-child(2) {
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .navbtn i:nth-child(3) {
+    bottom: 20px;
+  }
+
+  .navbtn_txt_menu {
+    position: absolute;
     color: #fff;
+    font-size: 10px;
+    bottom: 5px;
+  }
+
+  .navbtn_txt_close {
+    color: transparent;
+  }
+
+  .navbtn.active i:nth-child(1) {
+    transform: translateY(9px) rotate(-45deg);
+  }
+
+  .navbtn.active i:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbtn.active i:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+  }
+
+  .navbtn.active {
+    background-color: #fff;
+  }
+
+  .navbtn.active i {
+    background-color: #0c2e5a;
+  }
+
+  .navbtn.active .navbtn_txt_close {
+    position: absolute;
+    color: #0c2e5a;
+    font-size: 10px;
+    bottom: 5px;
   }
 
   .header_container__nav {
@@ -105,13 +152,89 @@
     right: -100%;
     width: 100%;
     height: 100%;
-    z-index: 2;
   }
 
-  .header_container__nav.open {
+  .header_container__nav.active {
     right: 0px;
   }
 
-  .header_container__nav li {
+  .header_container__nav {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: #0c2e5a;
+    display: inline-block;
+    text-align: center;
+    transform: translateX(100%);
+    transition: all 0.6s;
+    width: 100%;
+  }
+
+  .header_container__nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .header_container__nav li:first-child {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #menu-item-36 {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .header_container__nav li:nth-child(n + 2) {
+    padding: 30px 0px 0px 0px;
+  }
+
+  #menu-item-19 span.material-icons-outlined,
+  #menu-item-20 span.material-icons-outlined,
+  #menu-item-22 span.material-icons-outlined,
+  #menu-item-25 span.material-icons-outlined,
+  #menu-item-21 span.material-icons-outlined {
+    vertical-align: middle;
+    margin-right: 30px;
+    font-size: 40px;
+  }
+
+  .header_container_sns__follow__icon img {
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    margin: 50px 25px 50px 25px;
+  }
+
+  #menu-item-36 a {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+
+  #menu-item-36 a:hover {
+    background-color: #fff;
+    color: #0c2e5a;
+  }
+
+  /* このクラスを、jQueryで付与・削除する */
+  .header_container__nav.active {
+    transform: translateX(0%);
   }
 }
+/* 
+.header_container__nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+}
+
+.header_container__nav.open {
+  right: 0px;
+}
+*/

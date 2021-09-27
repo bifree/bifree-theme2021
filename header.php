@@ -27,12 +27,13 @@
                 </a>
             </div>
             <!-- レスポンシブ用メニューボタン -->
-            <button type="button" class="navbtn_menu">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nav_menu.svg" alt="navbtn_menu">
-                <p>
-                    MENU
-                </p>
-            </button>
+            <div class="navbtn">
+                <i></i>
+                <i></i>
+                <i></i>
+                <p class="navbtn_txt_menu">MENU</p>
+                <p class="navbtn_txt_close">CLOSE</p>
+            </div>
             <!-- ヘッダーナビゲーション -->
             <div class="header_container__nav">
                 <?php 
@@ -40,6 +41,19 @@
                     'theme_location' => 'header-nav', 
                     'container' => 'nav'
                     ) ); ?>
+                <!-- ハンバーガーメニュー内アイコン -->
+                <div class="header_container_sns__follow__icon">
+                    <a href="https://twitter.com/_bifree_">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/twitter_social icons_roundedsquare_blue.png"
+                            alt="twitter_icon">
+                    </a>
+                    <a href="https://youtube.com/channel/UCOSRAzwBWp-PacFcNTI0oKw">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/youtube_social_squircle_red.png"
+                            alt="youtube_icon">
+                    </a>
+
+                </div>
             </div>
+
         </div>
     </header>
