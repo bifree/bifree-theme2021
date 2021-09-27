@@ -513,7 +513,8 @@ header .header_container div:first-child {
   /* レスポンシブ用メニューボタン */
   .navbtn_menu,
   .header_container_sns__follow__icon img,
-  .navbtn_txt_menu {
+  .navbtn_txt_menu,
+  .navbtn_txt_close {
     display: none;
   }
 }
@@ -540,16 +541,12 @@ header .header_container div:first-child {
   list-style: none;
 }
 
-.footer_container_nav li:last-child {
-  margin: 0;
-}
-
-.footer_container_nav li:not(:last-child) {
+.footer_container_nav li {
   display: flex;
   align-items: center;
 }
 
-.footer_container_nav li:not(:last-child)::before {
+.footer_container_nav li::before {
   border-top: 1px solid;
   content: "";
   width: 12px; /* 線の長さ */
@@ -571,17 +568,6 @@ header .header_container div:first-child {
   filter: alpha(opacity=70);
   -moz-opacity: 0.7;
   opacity: 0.7;
-}
-
-/* フッターメニュー　プライバシーポリシー */
-#menu-item-33 a {
-  padding: 6px;
-  border: 1px solid #fff;
-}
-
-#menu-item-33 a:hover {
-  background-color: #fff;
-  color: #0c2e5a;
 }
 
 /* SNS部分 */
