@@ -36,9 +36,15 @@ $(function () {
 });
 
 // ヘッダーハンバーガーメニュー
+
 $(function() {
-	$('.navbtn_menu').on("click", function(){
-		$(this).toggleClass('open');
-		$('.header_container__nav').toggleClass('open');
-	});
+  $('.navbtn').click(function() {
+      $(this).toggleClass('active');
+
+      if ($(this).hasClass('active')) {
+          $('.header_container__nav').addClass('active');
+      } else {
+          $('.header_container__nav').removeClass('active');
+      }
+  });
 });
