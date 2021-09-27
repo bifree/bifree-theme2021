@@ -68,6 +68,10 @@
     height: 50px;
   }
 
+  .header_container__nav {
+    margin-right: 0;
+  }
+
   .header_container__logo img {
     width: 110px;
     margin: 0px 30px;
