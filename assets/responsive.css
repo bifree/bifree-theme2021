@@ -4,13 +4,17 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .price {
     margin-bottom: 0;
   }
   .price__table {
     border: 0;
-    width: 100%;
+    width: 90%;
+  }
+
+  .service--contact {
+    margin-top: 2em;
   }
 
   .price__table th {
@@ -87,6 +91,7 @@
     height: 50px;
     background-color: #0c2e5a;
     border: none;
+    cursor: pointer;
   }
 
   .navbtn i {
@@ -233,6 +238,15 @@
     display: none;
   }
 
+  .work__list--ul {
+    display: block;
+  }
+
+  .work__list {
+    width: 60%;
+    margin: 0 auto;
+  }
+
   .greet__top {
     display: block;
     padding: 0 2em 2em;
@@ -250,16 +264,9 @@
     width: 100%;
   }
 }
-/* 
-.header_container__nav {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 100%;
-  height: 100%;
-}
 
-.header_container__nav.open {
-  right: 0px;
+@media screen and (max-width: 650px) {
+  .panel {
+    padding: 2.5em 3em 1em;
+  }
 }
-*/

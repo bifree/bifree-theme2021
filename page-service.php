@@ -18,6 +18,7 @@
 				</h2>
 				<div class="feature__text--in panel">
 					<p>Bifreeは３・４名以上のチームを組み、どんなに小さなプロジェクトであっても取り組んでいます。メンバーそれぞれの負担を減らす目的だけでなく、IT業界の先輩から後輩へいつでもスキル向上の為の助言ができる環境を実現し、それを用いての品質担保したサービス提供を実現します。</p>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/teamwork.jpg">
 				</div>
 			</div>
 			<div class="feature__text feature__text--1st text--justify">
@@ -27,6 +28,7 @@
 				</h2>
 				<div class="feature__text--in panel">
 					<p>企画・立案、デザイン、コーディング、品質管理などを団体内で行っているため、管理者の目が細部まで届く構造となっています。またお客様のご要望に応じて柔軟にZoomでのオンライン会議などを行い、不安を払拭、その場にそれぞれの担当者を置くことで直接ご要望を反映させます。</p>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/onestep.jpg">
 				</div>
 			</div>
 			<div class="feature__text feature__text--1st text--justify">
@@ -36,6 +38,7 @@
 				</h2>
 				<div class="feature__text--in panel">
 					<p>Bifreeは日本人のLGBTQ当事者・非当事者だけでなく、外国人もプログラミングを行うメンバーとして迎え入れており、バックグラウンドの違う者たちによる知見の集大成を１つ１つのプロジェクトでクライアントのニーズに寄り添いながら具体化させています。</p>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/onestep.jpg">
 				</div>
 			</div>
 		</div>
@@ -58,7 +61,7 @@
 					<li class="work__list">
 						<a href="https://bifree222.com/web-lab/hospital-sample/" class="worklist__link">
 							<figure class="work__figure">
-								<img src="https://bifree222.com/web-lab/img/sample3.jpg" alt="" width="370" height="270">
+								<img src="https://bifree222.com/web-lab/img/sample3.jpg" alt="">
 							</figure>
 							<div class="work__list--innter">
 								<p class="site--title">石井総合内科クリニック</p>
@@ -69,7 +72,7 @@
 					<li class="work__list">
 						<a href="" class="worklist__link">
 							<figure class="work__figure">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/irodori-sample.png" alt="" width="370" height="270">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/irodori-sample.png" alt="">
 							</figure>
 							<div class="work__list--innter">
 								<p class="site--title">irOdori</p>
