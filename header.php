@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bifree</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/responsive.css">

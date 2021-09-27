@@ -1,6 +1,7 @@
 <?php
 
-
+//サムネイル表示
+add_theme_support('post-thumbnails');
 
 function add_stylesheet(){
 	wp_enqueue_style(
