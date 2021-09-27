@@ -384,6 +384,11 @@ table.price__table tbody td {
 }
 
 /* ヘッダー */
+
+.header_container__nav {
+  margin-right: 80px;
+}
+
 header .header_container {
   position: relative;
   z-index: 1000;
@@ -474,10 +479,23 @@ header .header_container div:first-child {
 
   /* ヘッダーメニュー　CONTACT設定 */
   #menu-item-21 a,
-  #menu-item-24 a {
+  #menu-item-24 a p {
     color: #fff;
     background-color: #feb718;
-    padding: 10px 20px;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .material-icons-outlined {
+    font-size: 24px !important;
+    line-height: 40px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
   }
 
   #menu-item-21 a:hover,
@@ -851,6 +869,10 @@ img {
   display: flex;
   height: 120px;
   align-items: center;
+}
+
+.article__body {
+  padding-left: 30px;
 }
 
 .article__left-arrow,

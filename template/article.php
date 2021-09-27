@@ -11,7 +11,7 @@
 <!-- 各スライド -->
 <?php
 $args = array(
-    'posts_per_page' => 3 // 表示件数の指定
+    'posts_per_page' => 4 // 表示件数の指定
 );
 $posts = get_posts( $args );
 foreach ( $posts as $post ): // ループの開始
@@ -26,7 +26,7 @@ setup_postdata( $post ); // 記事データの取得
             <p class="article__title"><?php the_title(); ?></p>
             <div class="article__time">
                 <img class="article__time__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/time.png">
-                <time class="article__time__day">2021.10.01
+                <time class="article__time__day"><?php echo get_the_date('Y.n.j'); ?>
                 </time>
             </div>
         </div>

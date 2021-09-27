@@ -1,8 +1,6 @@
 <section class="article">
-        
-
         <div class="swiper-container container">
-            <div class="article__left-arrow swiper-button-prev">
+				<div class="article__left-arrow swiper-button-prev">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/left.png">
             </div>
 
