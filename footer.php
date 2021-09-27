@@ -38,7 +38,18 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    pagination: '.swiper-pagination',
+    autoplay: 3000,
+    disableOnInteraction: false,
+});
+</script>
 </body>
 
 </html>
