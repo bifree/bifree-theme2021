@@ -2,18 +2,23 @@
 
 //メイン キャッチコピー
 $(function(){
-  var scrollEnd = $('.about').offset().top; //ページ上部からの距離を取得
+  var scrollStart = $('.main-visual').offset().top; //ページ上部からの距離を取得
+  var scrollEnd = $('.fixed-stop').offset().top; //ページ上部からの距離を取得
   var distance = 0;
  
   $(document).scroll(function(){
     distance = $(this).scrollTop(); //スクロールした距離を取得
  
-    if (scrollEnd <= distance) { //スクロール距離が『.about』の位置を超えたら
-      $('.catch-copy__img').removeClass('fixed'); 
-      //class『fixed』を削除
+    if (scrollStart <= distance) { //スクロール距離が『.catch-copy』の位置を超えたら
+      $('.catch-copy').addClass('fixed'); //class『fixed』を追加
+    } else if (scrollStart >= distance) { //スクロールがページ上部まで戻ったら
+      $('.catch-copy').removeClass('fixed'); //class『fixed』を削除
+    }
+ 
+    if (scrollEnd<= distance) { //スクロール距離が『.about』の位置を超えたら
+      $('.catch-copy').addClass('stop'); //class『stop』を追加
     } else{
-      $('.catch-copy__img').addClass('fixed');
-      //『.about』より上部に戻ったらclass『fixed』を追加
+      $('.catch-copy').removeClass('stop'); //『.about』より上部に戻ったらclass『stop』を削除
     }
   });      
 });

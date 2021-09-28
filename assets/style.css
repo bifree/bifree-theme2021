@@ -643,13 +643,14 @@ main {
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
-a {
+main a {
   text-decoration: none;
 }
 
-img {
+main img {
   max-width: 100%;
   vertical-align: top;
+  object-fit:cover;
 }
 
 .main-visual {
@@ -660,7 +661,6 @@ img {
 .main-visual__img2 {
   width: 100%;
   height: calc(100vh - 80px);
-  object-fit: cover;
 }
 
 .main-visual__img1 {
@@ -669,7 +669,7 @@ img {
   left: 0;
   z-index: 2;
   animation-name: slide;
-  animation-duration: 3s;
+  animation-duration:4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -678,7 +678,7 @@ img {
   0% {
     opacity: 1;
   }
-  30% {
+  50% {
     opacity: 1;
   }
   100% {
@@ -686,17 +686,44 @@ img {
   }
 }
 
-.catch-copy__img {
-  width: 45%;
-  position: absolute;
-  bottom: -600px;
-  left: 0;
+.catch-copy{
+  text-align:center;
+  width:55%;
+  position:absolute;
+  top:38%;
+  left:0%;
 }
 
-.fixed {
-  position: fixed;
-  top: 50%;
-  left: 0;
+.catch-copy__ja{
+  font-size:4vw;
+  font-family:'Noto Sans JP', sans-serif;
+  color:#0C2E5A;
+  padding:33px 9.9vh 30px;
+  background:rgba(255,230,33,0.8);
+  line-height:1.5
+}
+
+.catch-copy__ja .wo{
+  font-size:3.8vw;
+}
+
+.catch-copy__en{
+  font-size:1.6vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#0C2E5A;
+  padding:10px 14.8vw;
+  background:rgba(255,255,255,0.8);
+}
+
+.catch-copy.fixed{
+  position:fixed;
+  top:34%;
+  left:0;
+}
+
+.catch-copy.stop{
+  position:absolute;
+  top:calc(100vh + 260px);
 }
 
 .about,
