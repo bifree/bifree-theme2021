@@ -82,7 +82,7 @@
   }
 
   .navbtn {
-    position: fixed;
+    position: relative;
     z-index: 10;
     justify-content: center;
     display: flex;
@@ -194,7 +194,7 @@
   }
 
   .header_container__nav li:not(:first-child) {
-    padding: 30px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
   }
 
   #menu-item-19 span.material-icons-outlined,
