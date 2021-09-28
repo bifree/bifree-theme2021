@@ -535,15 +535,65 @@ header .header_container div:first-child {
   width: 100vw;
 }
 
-.footer_container_nav {
-  text-align: center;
-  padding: 86px 0 0 0;
-}
+@media screen and (min-width: 800px) {
+  .footer_container_nav {
+    text-align: center;
+    padding: 86px 0 0 0;
+  }
 
-.footer_container_nav ul {
-  display: inline-flex;
-  align-items: center;
-  font-size: 12px;
+  .footer_container_nav ul {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  /* SNS部分 */
+  .footer_container_sns {
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 56px 0 0 0;
+  }
+
+  .footer_container_sns__txt {
+    display: inline-flex;
+  }
+
+  .footer_container_sns__txt .arrow {
+    width: 40px;
+    height: 8px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: skew(45deg);
+  }
+  .footer_container_sns__follow__icon img {
+    width: auto;
+    height: 42px;
+    display: inline-block;
+    margin: 25px 15px 0 15px;
+  }
+
+  .footer_container_sns__logo img {
+    width: 80px;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-right: 40px;
+  }
+
+  .footer_container_sns__logo_responsive {
+    display: none;
+  }
+
+  .footer_container_copy {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    background-color: #0c2e5a;
+    padding: 56px 0 37px 0;
+  }
 }
 
 .footer_container_nav li {
@@ -580,36 +630,6 @@ header .header_container div:first-child {
   opacity: 0.7;
 }
 
-/* SNS部分 */
-.footer_container_sns {
-  font-size: 13px;
-  color: #fff;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin: 56px 0;
-}
-
-.footer_container_sns__logo img {
-  width: 80px;
-  height: auto;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  margin-right: 40px;
-}
-
-.footer_container_sns__txt {
-  display: inline-flex;
-}
-
-.footer_container_sns__txt .arrow {
-  width: 40px;
-  height: 8px;
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
-  transform: skew(45deg);
-}
-
 .footer_container_sns__follow {
   text-align: center;
   margin-left: 30px;
@@ -618,20 +638,6 @@ header .header_container div:first-child {
 
 .footer_container_sns__follow__icon a {
   text-decoration: none;
-}
-
-.footer_container_sns__follow__icon img {
-  width: auto;
-  height: 42px;
-  display: inline-block;
-  margin: 20px 15px 0 15px;
-}
-
-.footer_container_copy {
-  font-size: 13px;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 37px;
 }
 
 /* トップ */
