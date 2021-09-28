@@ -32,9 +32,14 @@
                 </div>
             </div>
         </div>
-        <div class="footer_container_copy">
-            <p>©︎ 2021 Bifree</p>
-        </div>
+    </div>
+    <!-- レスポンシブ用ロゴ -->
+    <div class="footer_container_sns__logo_responsive">
+        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_a.svg"
+                alt="bifree_logo"></a>
+    </div>
+    <div class="footer_container_copy">
+        <p>©︎ 2021 Bifree</p>
     </div>
 </footer>
 <?php wp_footer(); ?>
