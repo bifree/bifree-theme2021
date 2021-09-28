@@ -646,7 +646,6 @@ main {
   border: solid 1px #fff;
   color: #333;
   font-size: 15px;
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
 main a {
@@ -881,6 +880,8 @@ main.container{
 .service__web .service__text::after{
   content:"";
   background-image:url("img/web.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:right;
   position:absolute;
   width:117%;
@@ -903,6 +904,8 @@ main.container{
 .service__media .service__text::after{
   content:"";
   background-image:url("img/media.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:right;
   position:absolute;
   width:117%;
@@ -927,6 +930,8 @@ main.container{
   content:"";
   position:absolute;
   background-image:url("img/lgbt.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:center;
   width:117%;
   height:129%;
