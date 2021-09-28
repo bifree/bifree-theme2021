@@ -104,6 +104,10 @@
             <?php get_template_part('template/contact__btn');?>
         </div>
     </section>
+
+    <a class="top-btn" href="#">
+        <img class="top-btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/top-btn.png">
+      </a>
 </main>
 
 <?php get_footer(); ?>

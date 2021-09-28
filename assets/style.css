@@ -646,7 +646,6 @@ main {
   border: solid 1px #fff;
   color: #333;
   font-size: 15px;
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
 main a {
@@ -661,7 +660,7 @@ main img {
 
 main.container{
   max-width:1080px;
-  margin:auto;
+  margin:0 auto;
   padding:0 20px;
 }
 
@@ -696,6 +695,10 @@ main.container{
   100% {
     opacity: 0;
   }
+}
+
+.main-visual__img2{
+  object-position:left;
 }
 
 .catch-copy{
@@ -768,8 +771,8 @@ main.container{
 }
 
 .about__text {
-  width: 50%;
-  margin: 0 50px 0 50%;
+  width:40vw;
+  margin:0 20px 0 50%;
   line-height: 1.7;
 }
 
@@ -877,6 +880,8 @@ main.container{
 .service__web .service__text::after{
   content:"";
   background-image:url("img/web.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:right;
   position:absolute;
   width:117%;
@@ -899,6 +904,8 @@ main.container{
 .service__media .service__text::after{
   content:"";
   background-image:url("img/media.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:right;
   position:absolute;
   width:117%;
@@ -923,6 +930,8 @@ main.container{
   content:"";
   position:absolute;
   background-image:url("img/lgbt.png");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position:center;
   width:117%;
   height:129%;
@@ -1067,6 +1076,30 @@ main.container{
 .contact__btn:hover .contact__after{
   opacity:1;
 }
+
+.top-btn{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:#0C2E5A;
+  box-shadow:3px 3px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  align-items:center;
+  display:block;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+}
+
+
+.top-btn__img{
+  width:48px;
+  height:48px;
+}
+
+.top-btn:hover{
+  opacity:0.7;
+
 
 /* 固定ページ */
 
