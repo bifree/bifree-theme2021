@@ -432,27 +432,27 @@ header .header_container div:first-child {
 
   /* ヘッダーメニュー　ホバー設定 */
 
-.header_container__nav #menu-item-19 a,
-.header_container__nav #menu-item-20 a,
-.header_container__nav #menu-item-22 a,
-.header_container__nav #menu-item-25 a {
-  position: relative;
-}
+  .header_container__nav #menu-item-19 a,
+  .header_container__nav #menu-item-20 a,
+  .header_container__nav #menu-item-22 a,
+  .header_container__nav #menu-item-25 a {
+    position: relative;
+  }
 
-#menu-item-19 a::after,
-#menu-item-20 a::after,
-#menu-item-22 a::after,
-#menu-item-25 a::after {
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 3px;
-  transform: scale(0, 1);
-  transform-origin: left top;
-  transition: transform 0.3s;
-}
+  #menu-item-19 a::after,
+  #menu-item-20 a::after,
+  #menu-item-22 a::after,
+  #menu-item-25 a::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
+  }
 
   #menu-item-19 a::after {
     background: #068dda;
@@ -466,19 +466,19 @@ header .header_container div:first-child {
     background: #ffe621;
   }
 
-#menu-item-25 a::after {
-  background: #45b035;
-}
+  #menu-item-25 a::after {
+    background: #45b035;
+  }
 
-#menu-item-19 a:hover::after,
-#menu-item-20 a:hover::after,
-#menu-item-22 a:hover::after,
-#menu-item-25 a:hover::after {
-  transform: scale(1, 1);
-}
+  #menu-item-19 a:hover::after,
+  #menu-item-20 a:hover::after,
+  #menu-item-22 a:hover::after,
+  #menu-item-25 a:hover::after {
+    transform: scale(1, 1);
+  }
 
   /* ヘッダーメニュー　CONTACT設定 */
-  #menu-item-21 a,
+  #menu-item-21 a p,
   #menu-item-24 a p {
     color: #fff;
     background-color: #feb718;
@@ -622,7 +622,7 @@ header .header_container div:first-child {
 
 .footer_container_sns__follow__icon img {
   width: auto;
-  height: 35px;
+  height: 42px;
   display: inline-block;
   margin: 20px 15px 0 15px;
 }
@@ -890,7 +890,7 @@ img {
   margin-left: 15px;
 }
 
-.article__thumbnail img{
+.article__thumbnail img {
   width: 120px !important;
   height: 120px !important;
   border-radius: 50%;
