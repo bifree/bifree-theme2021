@@ -40,6 +40,34 @@ $(function () {
   jQuery(window).scroll();
 });
 
+// メイン トップへ戻るボタン
+$(document).ready(function(){
+  $(".topbtn").hide();
+  $(window).on("scroll", function() {
+    if ($(this).scrollTop() > 80) {
+        $(".top-btn").fadeIn("fast");
+    } else {
+        $(".top-btn").fadeOut("fast");
+    }
+    scrollHeight = $(document).height(); //ドキュメントの高さ 
+    scrollPosition = $(window).height() + $(window).scrollTop(); //現在地 
+    footHeight = $("footer").innerHeight(); //footerの高さ
+    if ( scrollHeight - scrollPosition  <= footHeight ) { //ドキュメントの高さと現在地の差がfooterの高さ以下になったら
+      $(".top-btn").fadeOut("fast");
+    } else {
+        $(".top-btn").fadeIn("fast");
+    }
+  });
+  
+  $('.top-btn').click(function () {
+      $('body,html').animate({
+      scrollTop: 0
+      }, 400);
+      return false;
+  });
+});
+
+
 // ヘッダーハンバーガーメニュー
 
 $(function() {
