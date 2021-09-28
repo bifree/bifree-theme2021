@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 

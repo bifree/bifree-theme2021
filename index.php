@@ -5,13 +5,20 @@
             alt="トップ画像">
         <img class="main-visual__img2" src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual2.png"
             alt="トップ画像">
-        <img class="catch-copy__img fixed" src="<?php echo get_template_directory_uri(); ?>/assets/img/catch-copy.png">
-
+        <div class="catch-copy">
+          <div class="catch-copy__ja">
+            “あなたらしさ”  <span class="wo">を</span><br>
+            応援したい
+          </div>
+          <div class="catch-copy__en">
+            We want to support your personality
+          </div>
+        </div>
     </div>
 
 
     <section class="about">
-        <div class=sec-title>
+        <div class="sec-title fixed-stop">
             <h1 class="sec-title__en">ABOUT</h1>
             <p class="sec-title__ja">Bifreeについて</p>
         </div>
