@@ -653,6 +653,12 @@ main img {
   object-fit:cover;
 }
 
+main.container{
+  max-width:1080px;
+  margin:auto;
+  padding:0 20px;
+}
+
 .main-visual {
   position: relative;
 }
@@ -758,7 +764,7 @@ main img {
 .about__text {
   width: 50%;
   margin: 0 50px 0 50%;
-  line-height: 1.7em;
+  line-height: 1.7;
 }
 
 .readmore {
@@ -782,110 +788,141 @@ main img {
   background: #fff;
 }
 
-.services {
-  margin: 0 50px 271px;
-  position: relative;
+.services{
+  margin-top:360px;
   opacity: 0;
   transform: translate(0, 150px);
-  transition: all 2000ms;
-}
+  transition: all 1500ms; 
+  }
 
 .services-scroll {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.service .sec-title__ja {
-  border-bottom: solid 5px #ffe621;
+.service .sec-title__ja{
+  border-bottom:solid 5px #FFE621;
 }
 
-.service__text {
-  color: #fff;
-  padding: 40px;
-  background: rgba(12, 46, 90, 0.9);
-  max-width: 500px;
-  position: absolute;
-  z-index: 2;
+/*  */
+.service__text{
+  color:#fff;
+  padding:40px;
+  position:relative;
+  background:rgba(12,46,90,0.9);
+  width:36vw;
 }
 
-.service__top {
-  display: flex;
-  margin-bottom: 30px;
+.service__top{
+  display:flex;
+  margin-bottom:30px;
 }
 
-.service__number {
-  font-size: 30px;
-  padding: 16px 10px 10px 0;
-  border-right: solid 2px #fff;
+.service__number{
+  font-size:2vw;
+  padding:16px 10px 10px 0;
+  border-right:solid 2px #fff;
 }
 
-.service__title {
-  padding-left: 10px;
+.service__title{
+  padding-left:10px;
 }
 
-.service__ja {
-  font-size: 30px;
-  padding-top: 10px;
+.service__ja{
+  font-size:2vw;
+  padding-top:10px;
 }
 
-.member__voice--comment,
-.service__body {
-  line-height: 1.7em;
-  text-align: justify;
+.service__en,.service__body{
+  font-size:1vw;
 }
 
-.service__img {
-  max-width: 580px;
-  height: 400px;
-  position: absolute;
-  z-index: 1;
+.service__body{
+  line-height:1.7;
 }
 
-.service__img__place {
-  max-width: 580px;
-  height: 400px;
-  opacity: 0;
+.service__web{
+  margin-top:190px;
 }
 
-.service__back {
-  width: 800px;
-  height: 450px;
-  position: absolute;
-  z-index: 0;
+.service__lgbt{
+  margin-bottom:150px;
 }
 
-.service__web .service__back {
-  background: rgba(248, 82, 69, 0.1);
+.service__web .service__text,.service__lgbt .service__text{
+  margin-left:50%;
 }
 
-.service__media .service__back {
-  background: rgba(69, 176, 53, 0.1);
-}
-.service__lgbt .service__back {
-  background: rgba(255, 230, 33, 0.1);
+.service__media .service__text{
+  margin-right:50%;
 }
 
-.service__web .service__text,
-.service__lgbt .service__text {
-  top: 180px;
-  left: 486px;
-}
-.service__web .service__back,
-.service__lgbt .service__back {
-  top: 91px;
-  left: 230px;
-}
-
-.service__media .service__img {
-  left: 394px;
+.service__web .service__text::before{
+  content:"";
+  position:absolute;
+  background:rgba(248,82,69,0.1);
+  width:162%;
+  height:145%;
+  top:-21%;
+  left:-52%;
+  z-index:-2;
 }
 
-.service__media .service__text {
-  top: 180px;
+.service__web .service__text::after{
+  content:"";
+  background-image:url("img/web.png");
+  background-position:right;
+  position:absolute;
+  width:117%;
+  height:129%;
+  top:-59%;
+  left:-98%;
+  z-index:-1;
 }
-.service__media .service__back {
-  top: 91px;
-  left: -59px;
+
+.service__media .service__text::before{
+  content:"";
+  position:absolute;
+  background:rgba(69,176,53,0.1);  width:162%;
+  height:145%;
+  top:-21%;
+  left:-10%;
+  z-index:-2;
+}
+
+.service__media .service__text::after{
+  content:"";
+  background-image:url("img/media.png");
+  background-position:right;
+  position:absolute;
+  width:117%;
+  height:129%;
+  top:-59%;
+  left:80%;
+  z-index:-1;
+}
+
+.service__lgbt .service__text::before{
+  content:"";
+  position:absolute;
+  background:rgba(255,230,33,0.1);
+  width:162%;
+  height:145%;
+  top:-21%;
+  left:-52%;
+  z-index:-2;
+}
+
+.service__lgbt .service__text::after{
+  content:"";
+  position:absolute;
+  background-image:url("img/lgbt.png");
+  background-position:center;
+  width:117%;
+  height:129%;
+  top:-59%;
+  left:-98%;
+  z-index:-1;
 }
 
 .article .sec-title__ja {
@@ -969,7 +1006,6 @@ main img {
   color:#fff;
   background: #0C2E5A;
   letter-spacing:0.1;
-  border-radius: 0;
   overflow:hidden;
 }
 
