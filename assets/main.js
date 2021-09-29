@@ -42,22 +42,29 @@ $(function () {
 
 // メイン トップへ戻るボタン
 $(document).ready(function(){
-  $(".topbtn").hide();
+  $(".top-btn").hide();
   $(window).on("scroll", function() {
     if ($(this).scrollTop() > 80) {
         $(".top-btn").fadeIn("fast");
     } else {
         $(".top-btn").fadeOut("fast");
     }
+
     scrollHeight = $(document).height(); //ドキュメントの高さ 
     scrollPosition = $(window).height() + $(window).scrollTop(); //現在地 
-    footHeight = $("footer").innerHeight(); //footerの高さ
+    footHeight = $("footer").innerHeight(); //footerの高さ（＝止めたい位置）
     if ( scrollHeight - scrollPosition  <= footHeight ) { //ドキュメントの高さと現在地の差がfooterの高さ以下になったら
-      $(".top-btn").fadeOut("fast");
+        $(".top-btn").css({
+            "position":"absolute", 
+            "bottom": footHeight + 20
+        });
     } else {
-        $(".top-btn").fadeIn("fast");
+        $(".top-btn").css({
+            "position":"fixed", 
+            "bottom": "20px"
+        });
     }
-  });
+});
   
   $('.top-btn').click(function () {
       $('body,html').animate({
