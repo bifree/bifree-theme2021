@@ -38,7 +38,7 @@
 				</h2>
 				<div class="feature__text--in panel">
 					<p>Bifreeは日本人のLGBTQ当事者・非当事者だけでなく、外国人もプログラミングを行うメンバーとして迎え入れており、バックグラウンドの違う者たちによる知見の集大成を１つ１つのプロジェクトでクライアントのニーズに寄り添いながら具体化させています。</p>
-					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/onestep.jpg">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/background.jpg">
 				</div>
 			</div>
 		</div>
