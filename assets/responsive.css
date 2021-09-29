@@ -168,7 +168,6 @@
     background-color: #0c2e5a;
     transform: translateX(100%);
     transition: all 0.6s;
-    text-align: center;
   }
 
   .header_container__nav.active {
@@ -176,7 +175,10 @@
   }
 
   .header_container__nav ul {
-    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit- transform: translateX(-50%);
   }
 
   .header_container__nav a {
@@ -205,10 +207,18 @@
   }
 
   .header_container_sns__follow__icon img {
-    width: auto;
     height: 50px;
-    display: inline-block;
     margin: 50px 25px 50px 25px;
+  }
+
+  .header_container_sns__follow__icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit- transform: translateX(-50%);
   }
 
   #menu-item-36 a {
