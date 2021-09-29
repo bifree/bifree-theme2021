@@ -1114,6 +1114,10 @@ main.container{
   width: 650px;
 }
 
+.member__voice--comment p {
+  line-height: 1.5;
+}
+
 .greet__top {
   display: flex;
   max-width: 1080px;
@@ -1121,8 +1125,9 @@ main.container{
   justify-content: space-between;
 }
 
-.greet__text {
+.greet__text p {
   max-width: 800px;
+  line-height:1.5;
 }
 
 .greet__pic {
