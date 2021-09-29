@@ -210,6 +210,10 @@ body {
   padding: 2.5em 7em 1em;
 }
 
+.panel img {
+  width: 100%;
+}
+
 .intro__table th,
 .intro__table td {
   border: 1px solid #bbb;
