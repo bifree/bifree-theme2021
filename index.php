@@ -53,11 +53,6 @@
                         LGBTQ当事者の雇用をもっと促進したい…その為のきっかけとなるべく始めたこの事業は、今やBifreeの根幹を大きく担っています。クライアントからのヒアリングを重視し、それを黙々と形にする、地味ですがとてもやりがいのある業務です。個人でなく、組織で行っているからこそのスピード感と、柔軟性は日々磨きをかけているところです。
                     </p>
                 </div>
-                <div class="service__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/web.png">
-                </div>
-                <div class="service__img__place"></div>
-                <div class="service__back"> </div>
             </div>
 
             <div class="services service__media">
@@ -73,11 +68,6 @@
                         登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
                         Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。</p>
                 </div>
-                <div class="service__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/media.png">
-                </div>
-                <div class="service__img__place"></div>
-                <div class="service__back"> </div>
             </div>
 
             <div class="services service__lgbt">
@@ -93,11 +83,6 @@
                         Bifreeでは活動で得た収益の一部を、毎月LGBTQ関係の支援団体様へ寄付しております。他、ニーズがあれば当事者による講演会や勉強会・その出演も承っておりますのでお声掛けください。これから先、更に多くの人に「特別な存在でないこと」を発信していければと考えております。
                     </p>
                 </div>
-                <div class="service__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lgbt.png">
-                </div>
-                <div class="service__img__place"></div>
-                <div class="service__back"> </div>
             </div>
         </div>
 
@@ -115,11 +100,14 @@
         <div class="container">
             <p class="contact__text">仕事依頼、ご質問・ご相談など、お気軽にお問合せください。</p>
 
-            <div class="contact-page">
-                <?php get_template_part('template/contact__btn');?>
-            </div>
+        
+            <?php get_template_part('template/contact__btn');?>
         </div>
     </section>
+
+    <a class="top-btn" href="#">
+        <img class="top-btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/top-btn.png">
+      </a>
 </main>
 
 <?php get_footer(); ?>
