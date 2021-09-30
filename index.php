@@ -14,6 +14,15 @@
             We want to support your personality
           </div>
         </div>
+        <div class="catch-copy catch-copy__back">
+            <div class="catch-copy__ja catch-copy__ja__back">
+              “あなたらしさ”  <span class="wo">を</span><br>
+              応援したい
+            </div>
+            <div class="catch-copy__en catch-copy__en__back">
+              We want to support your personality
+            </div>
+          </div>
     </div>
 
 

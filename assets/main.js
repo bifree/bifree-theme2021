@@ -23,6 +23,17 @@ $(function(){
   });      
 });
 
+// キャッチコピー背景
+$(document).ready(function(){
+  $(window).on("scroll", function() {
+    if ($(this).scrollTop() > 230) {
+        $(".catch-copy__back").fadeOut("slow");
+    } else {
+        $(".catch-copy__back").fadeIn("slow");
+    }
+  });  
+});
+
 
 //メイン サービス
 $(function () {
