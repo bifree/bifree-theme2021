@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+.d-none {
+  display: none;
+}
+
 .special-field {
   border: 2px solid #0c2e5a;
   line-height: 2rem;
