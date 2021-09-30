@@ -178,7 +178,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    -webkit- transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
   }
 
   .header_container__nav a {
@@ -217,7 +217,7 @@
     top: 450px;
     left: 50%;
     transform: translateX(-50%);
-    -webkit- transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
   }
 
   #menu-item-36 a {
