@@ -1133,12 +1133,15 @@ main.container{
 .member__voice--pic img{
   width: 100%;
   object-fit: cover;
+  border-radius: 50%;
 }
 
+.member__voice--comment2,
 .member__voice--comment {
   width: 650px;
 }
 
+.member__voice--comment2 p,
 .member__voice--comment p {
   line-height: 1.5;
 }
