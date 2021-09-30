@@ -826,12 +826,12 @@ main.container{
   margin-bottom:150px;
 }
 
-.service__web .service__text,.service__lgbt .service__text{
-  margin-left:50%;
+.services{
+  display:flex;
 }
 
-.service__media .service__text{
-  margin-right:50%;
+.services:nth-child(even){
+  flex-direction:row-reverse;
 }
 
 .service__web .service__text::before{
