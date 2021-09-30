@@ -682,6 +682,7 @@ main.container{
   font-family:'Noto Sans JP', sans-serif;
   color:#0C2E5A;
   padding:33px 9.9vh 30px;
+  line-height:1.4;
 }
 
 .catch-copy__ja .wo{
@@ -770,6 +771,7 @@ main.container{
   background: #fff;
 }
 
+
 .services{
   margin-top:360px;
   opacity: 0;
@@ -836,6 +838,11 @@ main.container{
 
 .services:nth-child(even){
   flex-direction:row-reverse;
+}
+
+
+.service__space{
+  width:50%;
 }
 
 .service__web .service__text::before{

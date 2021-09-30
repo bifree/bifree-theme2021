@@ -51,6 +51,7 @@
         <div class="container">
             <ul class="service__list">
                 <li class="services service__web">
+                    <p class="service__space"> </p>
                     <div class="service__text">
                         <div class="service__top">
                             <h3 class="service__number">#01</h3>
@@ -63,10 +64,10 @@
                         LGBTQ当事者の雇用をもっと促進したい…その為のきっかけとなるべく始めたこの事業は、今やBifreeの根幹を大きく担っています。クライアントからのヒアリングを重視し、それを黙々と形にする、地味ですがとてもやりがいのある業務です。個人でなく、組織で行っているからこそのスピード感と、柔軟性は日々磨きをかけているところです。
                         </p>
                     </div>
-                    <p></p>
                 </li>
 
                 <li class="services service__media">
+                    <p class="service__space"> </p>
                     <div class="service__text">
                         <div class="service__top">
                             <h3 class="service__number">#02</h3>
@@ -79,10 +80,10 @@
                         登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
                         Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。</p>
                     </div>
-                    <p></P>
                 </li>
 
                 <li class="services service__lgbt">
+                    <p class="service__space"> </p>
                     <div class="service__text">
                         <div class="service__top">
                             <h3 class="service__number">#03</h3>
@@ -95,7 +96,6 @@
                         Bifreeでは活動で得た収益の一部を、毎月LGBTQ関係の支援団体様へ寄付しております。他、ニーズがあれば当事者による講演会や勉強会・その出演も承っておりますのでお声掛けください。これから先、更に多くの人に「特別な存在でないこと」を発信していければと考えております。
                         </p>
                     </div>
-                    <p></p>
                 </li>
             </ul>
         </div>
