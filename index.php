@@ -14,11 +14,20 @@
             We want to support your personality
           </div>
         </div>
+        <div class="catch-copy catch-copy__back">
+            <div class="catch-copy__ja catch-copy__ja__back">
+              “あなたらしさ”  <span class="wo">を</span><br>
+              応援したい
+            </div>
+            <div class="catch-copy__en catch-copy__en__back">
+              We want to support your personality
+            </div>
+          </div>
     </div>
 
 
     <section class="about">
-        <div class="sec-title fixed-stop">
+        <div class="sec-title">
             <h1 class="sec-title__en">ABOUT</h1>
             <p class="sec-title__ja">Bifreeについて</p>
         </div>
@@ -40,50 +49,55 @@
         </div>
 
         <div class="container">
-            <div class="services service__web">
-                <div class="service__text">
-                    <div class="service__top">
-                        <h3 class="service__number">#01</h3>
-                        <div class="service__title">
-                            <p class="service__en">web production</p>
-                            <h3 class="service__ja">ウェブ制作</h3>
+            <ul class="service__list">
+                <li class="services service__web">
+                    <p class="service__space"> </p>
+                    <div class="service__text">
+                        <div class="service__top">
+                            <h3 class="service__number">#01</h3>
+                            <div class="service__title">
+                                <p class="service__en">web production</p>
+                                <h3 class="service__ja">ウェブ制作</h3>
+                            </div>
                         </div>
-                    </div>
-                    <p class="service__body text--justify">
+                        <p class="service__body text--justify">
                         LGBTQ当事者の雇用をもっと促進したい…その為のきっかけとなるべく始めたこの事業は、今やBifreeの根幹を大きく担っています。クライアントからのヒアリングを重視し、それを黙々と形にする、地味ですがとてもやりがいのある業務です。個人でなく、組織で行っているからこそのスピード感と、柔軟性は日々磨きをかけているところです。
-                    </p>
-                </div>
-            </div>
-
-            <div class="services service__media">
-                <div class="service__text">
-                    <div class="service__top">
-                        <h3 class="service__number">#02</h3>
-                        <div class="service__title">
-                            <p class="service__en">media management</p>
-                            <h3 class="service__ja">メディア運営</h3>
-                        </div>
+                        </p>
                     </div>
-                    <p class="service__body text--justify">
+                </li>
+
+                <li class="services service__media">
+                    <p class="service__space"> </p>
+                    <div class="service__text">
+                        <div class="service__top">
+                            <h3 class="service__number">#02</h3>
+                            <div class="service__title">
+                                <p class="service__en">media management</p>
+                                <h3 class="service__ja">メディア運営</h3>
+                            </div>
+                        </div>
+                        <p class="service__body text--justify">
                         登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
                         Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。</p>
-                </div>
-            </div>
-
-            <div class="services service__lgbt">
-                <div class="service__text">
-                    <div class="service__top">
-                        <h3 class="service__number">#03</h3>
-                        <div class="service__title">
-                            <p class="service__en">lgbt awareness activities</p>
-                            <h3 class="service__ja">LGBT啓蒙活動</h3>
-                        </div>
                     </div>
-                    <p class="service__body text--justify">
+                </li>
+
+                <li class="services service__lgbt">
+                    <p class="service__space"> </p>
+                    <div class="service__text">
+                        <div class="service__top">
+                            <h3 class="service__number">#03</h3>
+                            <div class="service__title">
+                                <p class="service__en">lgbt awareness activities</p>
+                                <h3 class="service__ja">LGBT啓蒙活動</h3>
+                            </div>
+                        </div>
+                        <p class="service__body text--justify">
                         Bifreeでは活動で得た収益の一部を、毎月LGBTQ関係の支援団体様へ寄付しております。他、ニーズがあれば当事者による講演会や勉強会・その出演も承っておりますのでお声掛けください。これから先、更に多くの人に「特別な存在でないこと」を発信していければと考えております。
-                    </p>
-                </div>
-            </div>
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <?php get_template_part('template/readmore--service');?>

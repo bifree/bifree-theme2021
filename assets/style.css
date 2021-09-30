@@ -671,30 +671,36 @@ main.container{
 
 .catch-copy{
   text-align:center;
-  width:55%;
+  width:53%;
   position:absolute;
   top:38%;
   left:0%;
 }
 
 .catch-copy__ja{
-  font-size:4vw;
+  font-size:3.9vw;
   font-family:'Noto Sans JP', sans-serif;
   color:#0C2E5A;
   padding:33px 9.9vh 30px;
-  background:rgba(255,230,33,0.8);
-  line-height:1.5
+  line-height:1.4;
 }
 
 .catch-copy__ja .wo{
-  font-size:3.8vw;
+  font-size:3.6vw;
+}
+
+.catch-copy__ja__back{
+  background:rgba(255,230,33,0.8);
 }
 
 .catch-copy__en{
-  font-size:1.6vw;
+  font-size:1.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   color:#0C2E5A;
   padding:10px 14.8vw;
+}
+
+.catch-copy__en__back{
   background:rgba(255,255,255,0.8);
 }
 
@@ -706,7 +712,7 @@ main.container{
 
 .catch-copy.stop{
   position:absolute;
-  top:calc(100vh + 260px);
+  top:calc(100vh + 250px);
 }
 
 .about,
@@ -765,6 +771,7 @@ main.container{
   background: #fff;
 }
 
+
 .services{
   margin-top:360px;
   opacity: 0;
@@ -781,7 +788,6 @@ main.container{
   border-bottom:solid 5px #FFE621;
 }
 
-/*  */
 .service__text{
   color:#fff;
   padding:40px;
@@ -826,12 +832,17 @@ main.container{
   margin-bottom:150px;
 }
 
-.service__web .service__text,.service__lgbt .service__text{
-  margin-left:50%;
+.services{
+  display:flex;
 }
 
-.service__media .service__text{
-  margin-right:50%;
+.services:nth-child(even){
+  flex-direction:row-reverse;
+}
+
+
+.service__space{
+  width:50%;
 }
 
 .service__web .service__text::before{
