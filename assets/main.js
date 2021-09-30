@@ -3,7 +3,7 @@
 //メイン キャッチコピー
 $(function(){
   var scrollStart = $('.main-visual').offset().top; //ページ上部からの距離を取得
-  var scrollEnd = $('.fixed-stop').offset().top; //ページ上部からの距離を取得
+  var scrollEnd = $('.about').offset().top; //ページ上部からの距離を取得
   var distance = 0;
  
   $(document).scroll(function(){
@@ -15,7 +15,7 @@ $(function(){
       $('.catch-copy').removeClass('fixed'); //class『fixed』を削除
     }
  
-    if (scrollEnd<= distance) { //スクロール距離が『.about』の位置を超えたら
+    if (scrollEnd + 70 <= distance) { //スクロール距離が『.about』の位置を超えたら
       $('.catch-copy').addClass('stop'); //class『stop』を追加
     } else{
       $('.catch-copy').removeClass('stop'); //『.about』より上部に戻ったらclass『stop』を削除

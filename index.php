@@ -27,7 +27,7 @@
 
 
     <section class="about">
-        <div class="sec-title fixed-stop">
+        <div class="sec-title">
             <h1 class="sec-title__en">ABOUT</h1>
             <p class="sec-title__ja">Bifreeについて</p>
         </div>

@@ -711,7 +711,7 @@ main.container{
 
 .catch-copy.stop{
   position:absolute;
-  top:calc(100vh + 260px);
+  top:calc(100vh + 250px);
 }
 
 .about,
@@ -786,7 +786,6 @@ main.container{
   border-bottom:solid 5px #FFE621;
 }
 
-/*  */
 .service__text{
   color:#fff;
   padding:40px;
