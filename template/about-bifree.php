@@ -24,23 +24,23 @@
 				<img src="http://bifree222.com/wp-content/uploads/2021/10/designer.png" alt="">
 				<p>Web Design担当</p>
 			</div>
-		<div class="member__voice--comment">
+			<div class="member__voice--comment">
 			<p>今まで印刷関連の会社で7年、紙媒体メインのDTPデザインをしてきました。
 				「これからはwebの知識も必要だな！」と思い、勉強を始めたものの一人ではなかなか進まず…。そんなとき代表のまさきさんに声をかけていただきました！<br>
 				チラシ、カード、ロゴ、YouTubeサムネイル、webサイトデザインなどをメインに制作しています。最近は皆さんに教えていただきながら、一部コーディングもさせてもらっています。
 				日々新たな知識と「もっとできるようになりたい」と思える刺激をいただいております！成長のきっかけをくれたBifreeとまさきさんに感謝です。</p>
+			</div>
 		</div>
-	</div>
-		<div class="member__voice">
-		<div class="member__voice--pic">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/member_image2.png" alt="">
-	</div>
-	<div class="member__voice--comment2">
-		<p>Coding担当</p>
+		<div class="member__voice member__voice--1st">
+			<div class="member__voice--pic">
+				<img src="http://bifree222.com/wp-content/uploads/2021/10/coder.jpg" alt="">
+				<p>Coding担当</p>
+			</div>
+		<div class="member__voice--comment">
 		<p>独学で勉強し、何の実績もなかった私がBifreeの一員となることはみなさんの足をひっぱってしまうのではないかと最初は不安でした。しかし、実際に参加してみるとBifreeのメンバーが互いに教え合い、助け合っている姿が見え、また、初心者の私にも優しくサポートしくれるとても温かい団体でした。<br>
 		Bifreeでは、みんなが意見を出し合い、それぞれの考えを尊重し、様々なことにも挑戦させてくださるので、勉強になることや吸収出来ることがたくさんあります。日々成長出来るので自分への自信にも繋がり、また、LGBT当事者、理解者で構成されているのでセクシャリティを隠すことなくありのままでいられます。『自分らしくいられる』そんな場所だと感じています。<br>
 		そんなBifreeの活動に貢献したい、事業を通して自身もたくさんの人の"らしさ"を応援したい。そんな気持ちが日々のやる気に繋がっています。</p>
 		</div>
-</div>
+	</div>
 	</div>
 </div>
