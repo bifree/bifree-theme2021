@@ -1276,3 +1276,8 @@ main.container{
   border-style: solid;
   border-color: #f85245 transparent transparent transparent;
 }
+
+.new--members {
+  display: flex;
+  justify-content: center;
+}
