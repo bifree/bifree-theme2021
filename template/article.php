@@ -1,4 +1,4 @@
-<section class="article">
+<section class="article d-none">
 <div class=sec-title>
             <h1 class="sec-title__en">ARTICLE</h1>
             <p class="sec-title__ja">新着記事</p>
