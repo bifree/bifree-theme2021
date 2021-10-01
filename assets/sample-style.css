@@ -1,0 +1,168 @@
+body {
+	width: 100%;
+	font-family: sans-serif !important;
+}
+
+.header {
+	background-image: url(http://bifree222.com/wp-content/uploads/2021/10/original.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.top--message {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 980px;
+}
+
+.company--name {
+	font-size: 56px;
+	color: #fff;
+}
+
+.company--message {
+	font-size: 16px;
+	color: #fff;
+}
+
+.box--title {
+	margin-bottom: 40px;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 24px;
+}
+
+.box--title::after {
+	display: block;
+	margin: 18px auto;
+	width: 80px;
+	height: 2px;
+	background: rgba(0, 0, 0, 0.3);
+	background-size: 16px 50px;
+	content: '';
+	vertical-align: top;
+}
+
+.vision,
+.corporation {
+	background-color: #f9f9fa;
+	padding: 80px 0;
+}
+
+.service,
+.team {
+	padding: 80px 0;
+}
+
+.vision__box {
+	display: flex;
+	margin: 0 auto;
+	height: 440px;
+	width: 1000px;
+	justify-content: space-between;
+}
+
+.vision--message,
+.vision--photo {
+	width: 460px;
+}
+
+.vision--message p {
+	line-height: 1.8em;
+}
+
+.vision--photo img {
+	width: 100%;
+}
+
+.service__box1,
+.service__box2 {
+	background-image: url(http://bifree222.com/wp-content/uploads/2021/10/original.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+}
+
+.service__box1 {
+	background-image: url(http://bifree222.com/wp-content/uploads/2021/10/service2.jpg);
+}
+
+.service__box2 {
+	background-image: url(http://bifree222.com/wp-content/uploads/2021/10/service3.jpg);
+}
+
+.members {
+	display: flex;
+	justify-content: center;
+}
+
+.member__pic {
+	width: 150px;
+	height: 150px;
+}
+
+.member__pic img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.footer {
+	background-color: #000;
+	color: #e5e5e5;
+}
+
+.footer--box {
+	padding: 50px 0 70px;
+	text-align: center;
+}
+
+table td,
+table tr th {
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+}
+
+tr th {
+	padding: 20px 20px;
+	background-color: #eee;
+	width: 25%;
+}
+
+tr td {
+	padding-left: 25px;
+	vertical-align: middle;
+}
+
+article {
+	margin: 0 auto;
+	width: 960px;
+}
+
+table {
+	width: 100%;
+	height: 660px;
+}
+
+.box--title--corpo {
+	line-height: 1.5;
+	text-align: center;
+	border-bottom: 3px solid #000;
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 740px) {
+	.vision__box {
+		display: block;
+		height: auto;
+	}
+}

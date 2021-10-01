@@ -152,8 +152,7 @@ body {
   display: flex;
 }
 
-.about__cont h1,
-.about__h1 {
+.about__cont h1 {
   font-size: 24px;
 }
 
@@ -1159,7 +1158,6 @@ main.container{
   margin-top: 30px;
 }
 
-.greet__pic,
 .member__voice--pic {
   height: 150px;
   width: 150px;
@@ -1220,7 +1218,7 @@ main.container{
 }
 
 .greet__pic img {
-  width: 100%;
+  width: 200px !important;
   height: 200px !important;
   object-fit: cover;
   border-radius: 50%;
@@ -1255,4 +1253,31 @@ main.container{
 .mainvisual {
   overflow-x: hidden;
   height: 250px;
+}
+
+.about__h1 {
+  position: relative;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background: #f85245;
+  max-width: 500px;
+  font-size: 24px;
+}
+
+.about__h1:after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #f85245 transparent transparent transparent;
+}
+
+.new--members {
+  display: flex;
+  justify-content: center;
 }
