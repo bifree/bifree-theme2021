@@ -7,6 +7,10 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  font-size: 18px;
+}
+
 :focus {
   outline: none;
 }
@@ -166,7 +170,7 @@ body {
 
 .feature__text p,
 .intro__text p {
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .panel__feat {
