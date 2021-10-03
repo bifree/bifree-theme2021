@@ -282,9 +282,110 @@
   }
 }
 
+@media screen and (max-width: 800px){
+  .contact__btn {
+    font-size: 18px !important;
+  }
+
+  .m-side-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .member__voice {
+    width: 100% !important;
+  }
+
+  .about__h1 {
+    padding: 1em 1.5em !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sp-block {
+    display: block;
+  }
+
+  .services{
+    margin-top:250px;
+  }
+
+  .service__text{
+    padding:20px;
+    width:65vw;
+  }
+
+.service__top{
+    margin-bottom:20px;
+  }
+  
+  .service__number{
+    font-size:23px;
+    padding:13px 10px 10px 0;
+  }
+
+  .service__ja{
+    font-size:23px;
+  }
+  
+  .service__en,.service__body{
+    font-size:14px;
+  }
+  
+  .service__web{
+    margin-top:150px;
+  }
+  
+  .service__lgbt{
+    margin-bottom:150px;
+  }
+  
+  .service__web .service__text::before,.service__lgbt .service__text::before{
+    width: 138%;
+    height:135%;
+    top:-27%;
+    left:-30%;
+    z-index:-2;
+  }
+
+  .service__media .service__text::before{
+    width: 138%;
+    height:135%;
+    top:-27%;
+    left:-8%;
+    z-index:-2;
+  }
+
+  .service__web .service__text::after,.service__lgbt .service__text::after{
+    width:111%;
+    height:250px;
+    top:-60%;
+    left:-38%;
+    z-index:-1;
+  }
+
+  .service__media .service__text::after{
+    width:111%;
+    height:250px;
+    top:-60%;
+    left:28%;
+    z-index:-1;
+  }
+
+  .service__space{
+    width:28%;
+  }
+
+  .footer_container_sns__follow {
+    margin-left: 10px;
+  }
+}
+
 /* フッターレスポンシブ */
 @media screen and (max-width: 800px) {
   .footer_container {
+    overflow-x: hidden;
+    scroll-margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +399,7 @@
   }
 
   .footer_container_nav li {
-    margin: 0 76px 20px 0px;
+    margin: 0 40px 20px 0px;
     list-style: none;
   }
 
