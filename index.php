@@ -114,7 +114,7 @@
         </div>
 
         <div class="container">
-            <p class="contact__text">仕事依頼、ご質問・ご相談など、お気軽にお問合せください。</p>
+            <p class="contact__text">仕事依頼、ご質問・ご相談など、<br class="sp-block">お気軽にお問合せください。</p>
 
         
             <?php get_template_part('template/contact__btn');?>
@@ -123,7 +123,7 @@
 
     <a class="top-btn" href="#">
         <img class="top-btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/top-btn.png">
-      </a>
+    </a>
 </main>
 
 <?php get_footer(); ?>

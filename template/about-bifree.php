@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<h1 class="about__h1">メンバー紹介</h1>
-		<p class="text--justify">Bifreeで日々活動しているメンバーの声を紹介します！</p>
+		<p class="text--justify">Bifreeで日々活動している<br class="sp-block">メンバーの声を紹介します！</p>
 		<div class="member__voice member__voice--1st">
 			<div class="member__voice--pic">
 				<img src="http://bifree222.com/wp-content/uploads/2021/10/designer.png" alt="">

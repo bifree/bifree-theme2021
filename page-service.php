@@ -3,10 +3,10 @@
 	<div class="page__header">
 			<h2 class="upper--table">事業紹介</h2>
 		</div>
-		<h1 class="service--concept">虹のように多彩な色でホームページに個性を</h1>
+		<h1 class="service--concept">虹のように多彩な色で<br class="sp-block">ホームページに個性を</h1>
 
 		<div class="intro">
-			<div class="intro__text text--justify">
+			<div class="intro__text text--justify m-side-10">
 				<p>Bifreeは2021年２月２日、LGBTQ当事者とその支援者・理解者であるアライを結ぶウェブメディアとしてオープン致しました。その後、そのウェブメディア構築で得た技術を全面に出しWebページ制作・システム構築などにも活動を広げ、2021年10月１日現在LGBTQ当事者・非当事者だけでなく外国人のメンバーも合わせ12名で活動しております。</p>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 						</a>
 					</li>
 					<li class="work__list">
-						<a href="" class="worklist__link">
+						<a href="https://irodori-odori.com/" class="worklist__link">
 							<figure class="work__figure">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/irodori-sample.png" alt="">
 							</figure>

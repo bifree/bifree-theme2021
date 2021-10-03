@@ -828,7 +828,7 @@ main.container{
 
 @media screen and (max-width: 800px){
   .about__text {
-    width:100%;
+    width:90%;
     margin:200px auto 0;
   }
 }
@@ -979,7 +979,34 @@ main.container{
   z-index:-1;
 }
 
+.sp-block {
+  display: none;
+}
+
 @media screen and (max-width: 800px){
+  .contact__btn {
+    font-size: 18px !important;
+  }
+
+  .m-side-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .member__voice {
+    width: 100% !important;
+  }
+
+  .about__h1 {
+    padding: 1em 1.5em !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sp-block {
+    display: block;
+  }
+
   .services{
     margin-top:250px;
   }
@@ -989,7 +1016,7 @@ main.container{
     width:65vw;
   }
 
- .service__top{
+.service__top{
     margin-bottom:20px;
   }
   
@@ -1003,7 +1030,7 @@ main.container{
   }
   
   .service__en,.service__body{
-    font-size:12px;
+    font-size:14px;
   }
   
   .service__web{
@@ -1013,7 +1040,7 @@ main.container{
   .service__lgbt{
     margin-bottom:150px;
   }
-   
+  
   .service__web .service__text::before,.service__lgbt .service__text::before{
     width: 138%;
     height:135%;
