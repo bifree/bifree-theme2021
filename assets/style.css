@@ -730,9 +730,9 @@ main.container {
   left: 0;
 }
 
-.catch-copy.stop {
-  position: absolute;
-  top: calc(100vh + 220px);
+.catch-copy.stop{
+  position:absolute;
+  top:calc(100vh + 280px);
 }
 
 @media screen and (max-width: 800px) {

@@ -31,7 +31,7 @@ $(function() {
           $('.catch-copy').removeClass('fixed'); //class『fixed』を削除
         }
     
-        if (scrollEnd + 40 <= distance) { //スクロール距離が『.about』の位置を超えたら
+        if (scrollEnd + 95 <= distance) { //スクロール距離が『.about』の位置を超えたら
           $('.catch-copy').addClass('stop'); //class『stop』を追加
         } else{
           $('.catch-copy').removeClass('stop'); //『.about』より上部に戻ったらclass『stop』を削除
