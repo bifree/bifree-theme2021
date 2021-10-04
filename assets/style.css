@@ -722,7 +722,7 @@ main.container{
 
 .catch-copy.stop{
   position:absolute;
-  top:calc(100vh + 220px);
+  top:calc(100vh + 280px);
 }
 
 @media screen and (max-width: 800px){
