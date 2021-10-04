@@ -31,6 +31,9 @@
       </a>
     </div>
 
+
+    
+
     <div class="archive-items">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <article class="archive-item">
@@ -63,7 +66,7 @@
                
             <div class="archive-item__button">
               <div class="archive-item__more">MORE</div>
-              <div class="archive-item__arrow"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/archive-arrow.png"></div>
+              <div class="archive-item__arrow"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/archive-arrow-right.png"></div>
 
 
             </div>
@@ -73,7 +76,7 @@
       <?php endwhile; endif; ?>
     </div>
 
-
+    <?php get_template_part('template/archive-pager');?>
 
   </main>
 <?php get_footer();?>
