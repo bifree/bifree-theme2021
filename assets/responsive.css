@@ -69,6 +69,7 @@
 @media screen and (max-width: 800px) {
   header .header_container {
     position: relative;
+    width: 100%;
     height: 50px;
   }
 
@@ -78,6 +79,7 @@
 
   .header_container__logo img {
     width: 110px;
+    box-sizing: border-box;
     margin: 0px 30px;
   }
 
@@ -89,6 +91,7 @@
     right: 0;
     width: 50px;
     height: 50px;
+    box-sizing: border-box;
     background-color: #0c2e5a;
     border: none;
     cursor: pointer;
@@ -125,6 +128,7 @@
   }
 
   .navbtn_txt_close {
+    font-size: 10px;
     color: transparent;
   }
 
@@ -165,6 +169,7 @@
     right: -100%;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
     background-color: #0c2e5a;
     transform: translateX(100%);
     transition: all 0.6s;
@@ -210,7 +215,7 @@
     margin: 50px 25px 50px 25px;
   }
 
-  .header_container_sns__follow__icon{
+  .header_container_sns__follow__icon {
     position: absolute;
     display: flex;
     align-items: center;
@@ -282,7 +287,7 @@
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .contact__btn {
     font-size: 18px !important;
   }
@@ -306,74 +311,77 @@
     display: block;
   }
 
-  .services{
-    margin-top:250px;
+  .services {
+    margin-top: 250px;
   }
 
-  .service__text{
-    padding:20px;
-    width:65vw;
+  .service__text {
+    padding: 20px;
+    width: 65vw;
   }
 
-.service__top{
-    margin-bottom:20px;
-  }
-  
-  .service__number{
-    font-size:23px;
-    padding:13px 10px 10px 0;
+  .service__top {
+    margin-bottom: 20px;
   }
 
-  .service__ja{
-    font-size:23px;
+  .service__number {
+    font-size: 23px;
+    padding: 13px 10px 10px 0;
   }
-  
-  .service__en,.service__body{
-    font-size:14px;
+
+  .service__ja {
+    font-size: 23px;
   }
-  
-  .service__web{
-    margin-top:150px;
+
+  .service__en,
+  .service__body {
+    font-size: 14px;
   }
-  
-  .service__lgbt{
-    margin-bottom:150px;
+
+  .service__web {
+    margin-top: 150px;
   }
-  
-  .service__web .service__text::before,.service__lgbt .service__text::before{
+
+  .service__lgbt {
+    margin-bottom: 150px;
+  }
+
+  .service__web .service__text::before,
+  .service__lgbt .service__text::before {
     width: 138%;
-    height:135%;
-    top:-27%;
-    left:-30%;
-    z-index:-2;
+    height: 135%;
+    top: -27%;
+    left: -30%;
+    z-index: -2;
   }
 
-  .service__media .service__text::before{
+  .service__media .service__text::before {
     width: 138%;
-    height:135%;
-    top:-27%;
-    left:-8%;
-    z-index:-2;
+    height: 135%;
+    top: -27%;
+    left: -8%;
+    z-index: -2;
   }
 
-  .service__web .service__text::after,.service__lgbt .service__text::after{
-    width:111%;
-    height:250px;
-    top:-60%;
-    left:-38%;
-    z-index:-1;
+  .service__web .service__text::after,
+  .service__lgbt .service__text::after {
+    width: 111%;
+    height: 250px;
+    top: -60%;
+    left: -38%;
+    z-index: -1;
   }
 
-  .service__media .service__text::after{
-    width:111%;
-    height:250px;
-    top:-60%;
-    left:28%;
-    z-index:-1;
+  .service__media .service__text::after {
+    width: 111%;
+    height: 250px;
+    top: -60%;
+    left: 28%;
+    z-index: -1;
   }
 
-  .service__space{
-    width:28%;
+  .service__space {
+    width: 28%;
   }
 
   .footer_container_sns__follow {
@@ -384,11 +392,13 @@
 /* フッターレスポンシブ */
 @media screen and (max-width: 800px) {
   .footer_container {
+    box-sizing: border-box;
     overflow-x: hidden;
     scroll-margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     background-color: #0c2e5a;
     width: 100vw;
     height: 218px;
@@ -432,7 +442,7 @@
     display: inline-block;
     margin: 25px 15px 0 15px;
   }
-  .footer_container_sns__follow {
+  .footer_container_sns__follow p {
     color: #fff;
     font-size: 13px;
   }
@@ -453,16 +463,18 @@
   }
 
   .footer_container_sns__logo_responsive {
-    background-color: #0c2e5a;
     text-align: center;
     padding: 0px 0 30px 0;
+    width: 100%;
+    background-color: #0c2e5a;
   }
 
-  .footer_container_copy {
+  .footer_container_copy p {
     color: #fff;
     font-size: 12px;
     text-align: center;
     background-color: #0c2e5a;
     padding: 0px 0 30px 0;
+    width: 100%;
   }
 }
