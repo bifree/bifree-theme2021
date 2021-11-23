@@ -50,7 +50,7 @@
 					<li class="work__list">
 						<a href="https://bifree222.com/web-lab/bloom/" class="worklist__link">
 							<figure class="work__figure">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/bloom-sample.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample1.png" alt="">
 							</figure>
 							<div class="work__list--innter">
 								<p class="site--title">Bloom -Flower Arrangement School-</p>
@@ -59,13 +59,49 @@
 						</a>
 					</li>
 					<li class="work__list">
-						<a href="https://bifree222.com/web-lab/hospital-sample/" class="worklist__link">
+						<a href="https://ichikawashi-hizatsuu.com/" class="worklist__link">
 							<figure class="work__figure">
-								<img src="https://bifree222.com/web-lab/img/sample3.jpg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample3.png" alt="">
 							</figure>
 							<div class="work__list--innter">
-								<p class="site--title">石井総合内科クリニック</p>
+								<p class="site--title">整体院神威様</p>
 								<p>Hospital site</p>
+							</div>
+						</a>
+					</li>
+					<li class="work__list">
+						<a href="https://irodori-odori.com/" class="worklist__link">
+							<figure class="work__figure">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample6.png" alt="">
+							</figure>
+							<div class="work__list--innter">
+								<p class="site--title">irOdori</p>
+								<p>Corporate site</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="work__list--ul">
+					<li class="work__list">
+						<a href="https://stradtailor.com/" class="worklist__link">
+							<figure class="work__figure">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample2.png" alt="">
+							</figure>
+							<div class="work__list--innter">
+								<p class="site--title">STRAD TAILOR様</p>
+								<p>Brand shop site</p>
+							</div>
+						</a>
+					</li>
+					<li class="work__list">
+						<a href="https://viewty-seiyaku.com/" class="worklist__link">
+							<figure class="work__figure">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample4.png" alt="">
+							</figure>
+							<div class="work__list--innter">
+								<p class="site--title">Viewty製薬株式会社様</p>
+								<p>Corporate site</p>
 							</div>
 						</a>
 					</li>
@@ -98,22 +134,22 @@
 						<tr>
 							<th>LP（１ページ）の制作</th>
 							<td class="txt">基本料金</td>
-							<td>￥20,000</td>
+							<td>￥100,000〜</td>
 						</tr>
 						<tr>
 							<th>ヘッダー画像デザイン</th>
 							<td class="txt">基本料金</td>
-							<td class="price">￥10,000</td>
+							<td class="price">￥30,000〜</td>
 						</tr>
 						<tr>
 							<th>Wordpressの構築</th>
 							<td class="txt">基本料金</td>
-							<td>￥50,000</td>
+							<td>￥150,000〜</td>
 						</tr>
 						<tr>
 							<th>ロゴ制作</th>
 							<td class="txt">基本料金</td>
-							<td>￥20,000</td>
+							<td>￥30,000〜</td>
 						</tr>
 					</tbody>
 				</table>

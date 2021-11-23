@@ -69,7 +69,6 @@
                 </li>
 
                 <li class="services service__media">
-                    <p class="service__space"> </p>
                     <div class="service__text">
                         <div class="service__top">
                             <h3 class="service__number">#02</h3>
@@ -82,6 +81,7 @@
                         登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
                         Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。</p>
                     </div>
+                    <p class="service__space"> </p>
                 </li>
 
                 <li class="services service__lgbt">

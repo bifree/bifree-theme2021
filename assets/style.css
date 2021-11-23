@@ -505,7 +505,7 @@ header .header_container div:first-child {
 /* フッター */
 .footer_container {
   background-color: #0c2e5a;
-  width: 100vw;
+  width: 100%;
 }
 
 @media screen and (min-width: 800px) {
@@ -863,7 +863,7 @@ main.container {
   padding: 40px;
   position: relative;
   background: rgba(12, 46, 90, 0.9);
-  width: 36vw;
+  width: 50%;
 }
 
 .service__top {
@@ -936,7 +936,7 @@ main.container {
   width: 117%;
   height: 129%;
   top: -59%;
-  left: -98%;
+  left: -100%;
   z-index: -1;
 }
 
@@ -961,7 +961,7 @@ main.container {
   width: 117%;
   height: 129%;
   top: -59%;
-  left: 80%;
+  left: 83%;
   z-index: -1;
 }
 
@@ -986,7 +986,7 @@ main.container {
   width: 117%;
   height: 129%;
   top: -59%;
-  left: -98%;
+  left: -100%;
   z-index: -1;
 }
 

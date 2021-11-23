@@ -251,6 +251,7 @@
 
   .work__list--ul {
     display: block;
+    margin: 39px 0 16px;
   }
 
   .work__list {
@@ -312,12 +313,12 @@
   }
 
   .services {
-    margin-top: 250px;
+    margin-top: 270px;
   }
 
   .service__text {
     padding: 20px;
-    width: 65vw;
+    width: 67%;
   }
 
   .service__top {
@@ -342,42 +343,42 @@
     margin-top: 150px;
   }
 
+  .service__media {
+    justify-content: flex-end;
+  }
+
   .service__lgbt {
     margin-bottom: 150px;
   }
 
   .service__web .service__text::before,
+  .service__media .service__text::before,
   .service__lgbt .service__text::before {
-    width: 138%;
+    width: 140%;
     height: 135%;
     top: -27%;
-    left: -30%;
+    left: -22%;
     z-index: -2;
   }
 
   .service__media .service__text::before {
-    width: 138%;
-    height: 135%;
-    top: -27%;
-    left: -8%;
-    z-index: -2;
+    left: -18%;
   }
 
   .service__web .service__text::after,
+  .service__media .service__text::after,
   .service__lgbt .service__text::after {
     width: 111%;
     height: 250px;
-    top: -60%;
-    left: -38%;
+    top: -220px;
+    left: 77%;
+    transform: translateX(-100%);
     z-index: -1;
   }
 
   .service__media .service__text::after {
-    width: 111%;
-    height: 250px;
-    top: -60%;
-    left: 28%;
-    z-index: -1;
+    left: 23%;
+    transform: translateX(0);
   }
 
   .service__space {
@@ -400,7 +401,7 @@
     align-items: center;
     box-sizing: border-box;
     background-color: #0c2e5a;
-    width: 100vw;
+    width: 100%;
     height: 218px;
   }
 
